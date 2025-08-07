@@ -1,0 +1,10395 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "df35be7c-9232-436d-9601-1661becde945")
+	(paper "User" 301.219 210.007)
+	(lib_symbols
+		(symbol "nrings-eagle-import:+3V3"
+			(power)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#+3V"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+3V3_1_0"
+				(polyline
+					(pts
+						(xy 0 0.952) (xy -1.27 -0.952)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -0.952) (xy 0 0.952)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 -1.588 90)
+					(length 2.54)
+					(name "+3V3"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "nrings-eagle-import:C-USC0603_4"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "nrings:CAP_0603"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C-USC0603_4_1_0"
+				(polyline
+					(pts
+						(xy -2.54 1.27) (xy 2.54 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.254) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0.152)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 0.254)
+					(mid -1.3021 0.0399)
+					(end -2.467 -0.58)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.489 -0.584)
+					(mid 1.3157 0.0506)
+					(end 0 0.2701)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "nrings-eagle-import:C-USC0603_5"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "nrings:CAP_0603"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C-USC0603_5_1_0"
+				(arc
+					(start -0.254 0)
+					(mid -0.0399 -1.3021)
+					(end 0.58 -2.467)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -2.54) (xy -1.27 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.254 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0.152)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0.584 2.489)
+					(mid -0.0506 1.3157)
+					(end -0.27 0)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "nrings-eagle-import:CPOL-USA_29"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "nrings:PANASONIC_A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "CPOL-USA_29_1_0"
+				(polyline
+					(pts
+						(xy -1.858 -1.872) (xy -1.858 -1.745)
+					)
+					(stroke
+						(width 0.333)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.858 -1.745) (xy -0.969 -1.745)
+					)
+					(stroke
+						(width 0.333)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.477 -2.253) (xy -1.477 -1.364)
+					)
+					(stroke
+						(width 0.333)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.477 -1.364) (xy -1.35 -1.364)
+					)
+					(stroke
+						(width 0.333)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.35 -2.253) (xy -1.477 -2.253)
+					)
+					(stroke
+						(width 0.333)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.35 -1.364) (xy -1.35 -2.253)
+					)
+					(stroke
+						(width 0.333)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.969 -1.872) (xy -1.858 -1.872)
+					)
+					(stroke
+						(width 0.333)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.969 -1.745) (xy -0.969 -1.872)
+					)
+					(stroke
+						(width 0.333)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.682 -2.54) (xy -0.682 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.334 0) (xy 1.858 0)
+					)
+					(stroke
+						(width 0.152)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0.334 0)
+					(mid 0.548 -1.3021)
+					(end 1.168 -2.467)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.172 2.489)
+					(mid 0.5374 1.3157)
+					(end 0.318 0)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -3.222 0 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 4.398 0 180)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "nrings-eagle-import:CPOL-USA_30"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "nrings:PANASONIC_A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "CPOL-USA_30_1_0"
+				(arc
+					(start -1.172 -2.489)
+					(mid -0.5374 -1.3157)
+					(end -0.318 0)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.334 0)
+					(mid -0.548 1.3021)
+					(end -1.168 2.467)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.334 0) (xy -1.858 0)
+					)
+					(stroke
+						(width 0.152)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.682 2.54) (xy 0.682 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.969 1.744) (xy 0.969 1.872)
+					)
+					(stroke
+						(width 0.333)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.969 1.872) (xy 1.858 1.872)
+					)
+					(stroke
+						(width 0.333)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.35 1.364) (xy 1.35 2.253)
+					)
+					(stroke
+						(width 0.333)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.35 2.253) (xy 1.476 2.253)
+					)
+					(stroke
+						(width 0.333)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.476 1.364) (xy 1.35 1.364)
+					)
+					(stroke
+						(width 0.333)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.476 2.253) (xy 1.476 1.364)
+					)
+					(stroke
+						(width 0.333)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.858 1.744) (xy 0.969 1.744)
+					)
+					(stroke
+						(width 0.333)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.858 1.872) (xy 1.858 1.744)
+					)
+					(stroke
+						(width 0.333)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 3.222 0 180)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -4.398 0 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "nrings-eagle-import:DIODE_2CACA-SOT23"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "nrings:SOT23"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "DIODE_2CACA-SOT23_1_0"
+				(polyline
+					(pts
+						(xy -1.27 -3.81) (xy 1.27 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 3.81) (xy 0 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0.152)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy -1.27 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 3.81)
+					)
+					(stroke
+						(width 0.152)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 3.81) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 3.81) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0.152)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 3.81) (xy 1.27 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -3.81) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 0 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.127)
+					(stroke
+						(width 0.406)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 2.54)
+					(name "AC"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "nrings-eagle-import:EVEN"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "nrings:THONKICONN"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "EVEN_1_0"
+				(polyline
+					(pts
+						(xy -4.065 -2.54) (xy 3.047 -2.54)
+					)
+					(stroke
+						(width 0.152)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.065 0) (xy -2.287 0)
+					)
+					(stroke
+						(width 0.152)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.065 2.54) (xy -1.525 2.54)
+					)
+					(stroke
+						(width 0.152)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.541 1.524) (xy -2.033 1.524)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.287 0) (xy -2.287 2.286)
+					)
+					(stroke
+						(width 0.152)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.287 2.286) (xy -2.541 1.524)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.033 1.524) (xy -2.287 2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.525 2.54) (xy -0.001 1.016)
+					)
+					(stroke
+						(width 0.152)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.001 1.016) (xy 0.761 1.778)
+					)
+					(stroke
+						(width 0.152)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.049 -2.794) (xy 3.049 2.794)
+					)
+					(stroke
+						(width 0.333)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.049 2.794) (xy 4.065 2.794)
+					)
+					(stroke
+						(width 0.333)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.065 -2.794) (xy 3.049 -2.794)
+					)
+					(stroke
+						(width 0.333)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.065 2.794) (xy 4.065 -2.794)
+					)
+					(stroke
+						(width 0.333)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -6.605 0 0)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -6.605 2.54 0)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -6.605 -2.54 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "nrings-eagle-import:GND"
+			(power)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#GND"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GND_1_0"
+				(polyline
+					(pts
+						(xy -1.905 0) (xy 1.905 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 2.54 270)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "nrings-eagle-import:IN"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "nrings:THONKICONN"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "IN_1_0"
+				(polyline
+					(pts
+						(xy -4.063 -2.794) (xy -4.063 2.794)
+					)
+					(stroke
+						(width 0.333)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.063 2.794) (xy -3.047 2.794)
+					)
+					(stroke
+						(width 0.333)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.047 -2.794) (xy -4.063 -2.794)
+					)
+					(stroke
+						(width 0.333)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.047 2.794) (xy -3.047 -2.794)
+					)
+					(stroke
+						(width 0.333)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.001 1.016) (xy -0.763 1.778)
+					)
+					(stroke
+						(width 0.152)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.523 2.54) (xy -0.001 1.016)
+					)
+					(stroke
+						(width 0.152)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.031 1.524) (xy 2.285 2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.285 0) (xy 2.285 2.286)
+					)
+					(stroke
+						(width 0.152)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.285 2.286) (xy 2.539 1.524)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.539 1.524) (xy 2.031 1.524)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.063 -2.54) (xy -3.049 -2.54)
+					)
+					(stroke
+						(width 0.152)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.063 0) (xy 2.285 0)
+					)
+					(stroke
+						(width 0.152)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.063 2.54) (xy 1.523 2.54)
+					)
+					(stroke
+						(width 0.152)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 6.603 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 6.603 2.54 180)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 6.603 -2.54 180)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "nrings-eagle-import:MMBT3904LT1-NPN-SOT23-BEC"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "nrings:SOT23-BEC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "MMBT3904LT1-NPN-SOT23-BEC_1_0"
+				(polyline
+					(pts
+						(xy -1.395 -2.54) (xy -0.637 -2.54)
+					)
+					(stroke
+						(width 0.333)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.395 2.54) (xy -1.395 -2.54)
+					)
+					(stroke
+						(width 0.333)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.637 -2.54) (xy -0.637 2.54)
+					)
+					(stroke
+						(width 0.333)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.637 2.54) (xy -1.395 2.54)
+					)
+					(stroke
+						(width 0.333)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.125 -2.54) (xy 0.633 -1.524)
+					)
+					(stroke
+						(width 0.152)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.379 -2.413) (xy 1.141 -2.413)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.379 -2.286) (xy 0.76 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.395 -2.04) (xy -0.837 -1.424)
+					)
+					(stroke
+						(width 0.152)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.633 -1.778) (xy 0.379 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.633 -1.524) (xy 1.395 -2.54)
+					)
+					(stroke
+						(width 0.152)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.76 -2.286) (xy 0.633 -2.032)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.141 -2.413) (xy 0.633 -1.778)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.395 -2.54) (xy 0.125 -2.54)
+					)
+					(stroke
+						(width 0.152)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.395 2.54) (xy -0.637 1.524)
+					)
+					(stroke
+						(width 0.152)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -3.685 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 1.395 5.08 270)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 1.395 -5.08 90)
+					(length 2.54)
+					(name "E"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "E"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "nrings-eagle-import:ODD"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "nrings:THONKICONN"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "ODD_1_0"
+				(polyline
+					(pts
+						(xy -4.065 -2.54) (xy 3.047 -2.54)
+					)
+					(stroke
+						(width 0.152)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.065 0) (xy -2.287 0)
+					)
+					(stroke
+						(width 0.152)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.065 2.54) (xy -1.525 2.54)
+					)
+					(stroke
+						(width 0.152)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.541 1.524) (xy -2.033 1.524)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.287 0) (xy -2.287 2.286)
+					)
+					(stroke
+						(width 0.152)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.287 2.286) (xy -2.541 1.524)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.033 1.524) (xy -2.287 2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.525 2.54) (xy -0.001 1.016)
+					)
+					(stroke
+						(width 0.152)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.001 1.016) (xy 0.761 1.778)
+					)
+					(stroke
+						(width 0.152)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.049 -2.794) (xy 3.049 2.794)
+					)
+					(stroke
+						(width 0.333)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.049 2.794) (xy 4.065 2.794)
+					)
+					(stroke
+						(width 0.333)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.065 -2.794) (xy 3.049 -2.794)
+					)
+					(stroke
+						(width 0.333)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.065 2.794) (xy 4.065 -2.794)
+					)
+					(stroke
+						(width 0.333)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -6.605 0 0)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -6.605 2.54 0)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -6.605 -2.54 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "nrings-eagle-import:R-US_R0603"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "nrings:RES_0603"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R-US_R0603_1_0"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -2.159 1.016)
+					)
+					(stroke
+						(width 0.203)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.159 1.016) (xy -1.524 -1.016)
+					)
+					(stroke
+						(width 0.203)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -1.016) (xy -0.889 1.016)
+					)
+					(stroke
+						(width 0.203)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.889 1.016) (xy -0.254 -1.016)
+					)
+					(stroke
+						(width 0.203)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.254 -1.016) (xy 0.381 1.016)
+					)
+					(stroke
+						(width 0.203)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.381 1.016) (xy 1.016 -1.016)
+					)
+					(stroke
+						(width 0.203)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 -1.016) (xy 1.651 1.016)
+					)
+					(stroke
+						(width 0.203)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.651 1.016) (xy 2.286 -1.016)
+					)
+					(stroke
+						(width 0.203)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -1.016) (xy 2.54 0)
+					)
+					(stroke
+						(width 0.203)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "nrings-eagle-import:R-US_R0603_34"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "nrings:RES_0603"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R-US_R0603_34_1_0"
+				(polyline
+					(pts
+						(xy -1.016 -2.159) (xy 1.016 -1.524)
+					)
+					(stroke
+						(width 0.203)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 -0.889) (xy 1.016 -0.254)
+					)
+					(stroke
+						(width 0.203)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 0.381) (xy 1.016 1.016)
+					)
+					(stroke
+						(width 0.203)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 1.651) (xy 1.016 2.286)
+					)
+					(stroke
+						(width 0.203)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy -1.016 -2.159)
+					)
+					(stroke
+						(width 0.203)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 -1.524) (xy -1.016 -0.889)
+					)
+					(stroke
+						(width 0.203)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 -0.254) (xy -1.016 0.381)
+					)
+					(stroke
+						(width 0.203)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 1.016) (xy -1.016 1.651)
+					)
+					(stroke
+						(width 0.203)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 2.286) (xy 0 2.54)
+					)
+					(stroke
+						(width 0.203)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "nrings-eagle-import:R-US_R0603_36"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "nrings:RES_0603"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R-US_R0603_36_1_0"
+				(polyline
+					(pts
+						(xy -1.016 -2.286) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0.203)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 -1.016) (xy 1.016 -1.651)
+					)
+					(stroke
+						(width 0.203)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 0.254) (xy 1.016 -0.381)
+					)
+					(stroke
+						(width 0.203)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 1.524) (xy 1.016 0.889)
+					)
+					(stroke
+						(width 0.203)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 1.016 2.159)
+					)
+					(stroke
+						(width 0.203)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 -1.651) (xy -1.016 -2.286)
+					)
+					(stroke
+						(width 0.203)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 -0.381) (xy -1.016 -1.016)
+					)
+					(stroke
+						(width 0.203)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0.889) (xy -1.016 0.254)
+					)
+					(stroke
+						(width 0.203)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 2.159) (xy -1.016 1.524)
+					)
+					(stroke
+						(width 0.203)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "nrings-eagle-import:R-US_R0603_37"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "nrings:RES_0603"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R-US_R0603_37_1_0"
+				(polyline
+					(pts
+						(xy -2.286 1.016) (xy -2.54 0)
+					)
+					(stroke
+						(width 0.203)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.651 -1.016) (xy -2.286 1.016)
+					)
+					(stroke
+						(width 0.203)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 1.016) (xy -1.651 -1.016)
+					)
+					(stroke
+						(width 0.203)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.381 -1.016) (xy -1.016 1.016)
+					)
+					(stroke
+						(width 0.203)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 1.016) (xy -0.381 -1.016)
+					)
+					(stroke
+						(width 0.203)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.889 -1.016) (xy 0.254 1.016)
+					)
+					(stroke
+						(width 0.203)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.524 1.016) (xy 0.889 -1.016)
+					)
+					(stroke
+						(width 0.203)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.159 -1.016) (xy 1.524 1.016)
+					)
+					(stroke
+						(width 0.203)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 2.159 -1.016)
+					)
+					(stroke
+						(width 0.203)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "nrings-eagle-import:SOLDERJUMPERNC2"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SJ"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "nrings:SJ_2S-NOTRACE"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SOLDERJUMPERNC2_1_0"
+				(arc
+					(start -0.635 -0.381)
+					(mid 0 -1.016)
+					(end 0.635 -0.381)
+					(stroke
+						(width 1.27)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 -1.651)
+					)
+					(stroke
+						(width 0.152)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 1.651)
+					)
+					(stroke
+						(width 0.152)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0.635 0.381)
+					(mid 0 1.016)
+					(end -0.635 0.381)
+					(stroke
+						(width 1.27)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "nrings-eagle-import:STRUM"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "nrings:THONKICONN"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "STRUM_1_0"
+				(polyline
+					(pts
+						(xy -4.063 -2.794) (xy -4.063 2.794)
+					)
+					(stroke
+						(width 0.333)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.063 2.794) (xy -3.047 2.794)
+					)
+					(stroke
+						(width 0.333)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.047 -2.794) (xy -4.063 -2.794)
+					)
+					(stroke
+						(width 0.333)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.047 2.794) (xy -3.047 -2.794)
+					)
+					(stroke
+						(width 0.333)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.001 1.016) (xy -0.763 1.778)
+					)
+					(stroke
+						(width 0.152)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.523 2.54) (xy -0.001 1.016)
+					)
+					(stroke
+						(width 0.152)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.031 1.524) (xy 2.285 2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.285 0) (xy 2.285 2.286)
+					)
+					(stroke
+						(width 0.152)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.285 2.286) (xy 2.539 1.524)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.539 1.524) (xy 2.031 1.524)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.063 -2.54) (xy -3.049 -2.54)
+					)
+					(stroke
+						(width 0.152)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.063 0) (xy 2.285 0)
+					)
+					(stroke
+						(width 0.152)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.063 2.54) (xy 1.523 2.54)
+					)
+					(stroke
+						(width 0.152)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 6.603 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 6.603 2.54 180)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 6.603 -2.54 180)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "nrings-eagle-import:TL072D"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "IC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "nrings:SO08"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TL072D_1_0"
+				(polyline
+					(pts
+						(xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.406)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.406)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.445 -2.54) (xy -3.175 -2.54)
+					)
+					(stroke
+						(width 0.152)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.445 2.54) (xy -3.175 2.54)
+					)
+					(stroke
+						(width 0.152)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -3.175) (xy -3.81 -1.905)
+					)
+					(stroke
+						(width 0.152)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 0) (xy -5.08 -5.08)
+					)
+					(stroke
+						(width 0.406)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "-IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "+IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "TL072D_2_0"
+				(polyline
+					(pts
+						(xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.406)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.406)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.445 -2.54) (xy -3.175 -2.54)
+					)
+					(stroke
+						(width 0.152)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.445 2.54) (xy -3.175 2.54)
+					)
+					(stroke
+						(width 0.152)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -3.175) (xy -3.81 -1.905)
+					)
+					(stroke
+						(width 0.152)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 0) (xy -5.08 -5.08)
+					)
+					(stroke
+						(width 0.406)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "+IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "-IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "TL072D_3_0"
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 5.08)
+					(name "V-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 7.62 270)
+					(length 5.08)
+					(name "V+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "nrings-eagle-import:VCC"
+			(power)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#P+"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "VCC_1_0"
+				(polyline
+					(pts
+						(xy 0 0.635) (xy -0.762 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -0.635) (xy 0 0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 -1.905 90)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "nrings-eagle-import:VEE_42"
+			(power)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#SUPPLY"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "VEE_42_1_0"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 3.81 270)
+					(length 2.54)
+					(name "VEE"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 91.44 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "00145d55-8a49-4889-862e-14debca6cb34")
+	)
+	(junction
+		(at 198.12 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "15793af3-3ede-4413-b4de-21116524339b")
+	)
+	(junction
+		(at 177.8 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "210e7975-d9d9-45a4-afd3-f7c345a3b123")
+	)
+	(junction
+		(at 162.56 147.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2a391232-efab-47bb-a140-5aa8d561d97e")
+	)
+	(junction
+		(at 177.8 147.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3a91d009-d69f-4080-9c06-066806e50654")
+	)
+	(junction
+		(at 162.56 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5d9e10a7-542e-470c-b208-588edf7b8a33")
+	)
+	(junction
+		(at 198.12 149.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6315bb09-a9ad-4bba-95b3-1bdda4db2a6a")
+	)
+	(junction
+		(at 58.42 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "68f175fa-a803-47b0-9452-ac4884f7cd13")
+	)
+	(junction
+		(at 177.8 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6ee774e6-4502-4007-8fd9-8d1e728bc6c4")
+	)
+	(junction
+		(at 99.06 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "74c80c13-816d-4a6a-8bb4-365c3cc05448")
+	)
+	(junction
+		(at 264.16 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "88f34fbb-ddeb-46d0-ac86-507c577ea1a8")
+	)
+	(junction
+		(at 91.44 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8b5d4838-f445-45cd-877d-9285d7891f29")
+	)
+	(junction
+		(at 177.8 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8d0287af-0f16-49f3-b4f2-38350ae68419")
+	)
+	(junction
+		(at 259.08 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8f217f43-9214-4960-8917-373f462c5a15")
+	)
+	(junction
+		(at 177.8 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "955dd628-cd5a-4995-9811-122bec102d26")
+	)
+	(junction
+		(at 198.12 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a30648be-7390-46c2-b0ed-3d0fcb615525")
+	)
+	(junction
+		(at 198.12 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a999ed81-2f8f-47a7-a26b-9aecee0f1df0")
+	)
+	(junction
+		(at 259.08 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b73bba1f-3c48-4f8b-9d2a-8be3cba5da5d")
+	)
+	(junction
+		(at 177.8 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fde8a3ce-5c85-4955-8c7c-7dafcdad371b")
+	)
+	(wire
+		(pts
+			(xy 162.56 91.44) (xy 165.1 91.44)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(uuid "021535c1-d08f-4ffd-a86e-6e9999842506")
+	)
+	(wire
+		(pts
+			(xy 162.56 78.74) (xy 162.56 91.44)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(uuid "07e892c0-0b3f-414d-8a63-a4ddf1bc5aef")
+	)
+	(wire
+		(pts
+			(xy 218.44 109.22) (xy 215.9 109.22)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(uuid "097d8c90-f79e-4450-939d-62b4eafa3fb7")
+	)
+	(wire
+		(pts
+			(xy 152.4 147.32) (xy 149.86 147.32)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(uuid "09ef8940-2f01-4193-bcf7-92f7758d7e69")
+	)
+	(wire
+		(pts
+			(xy 177.8 132.08) (xy 185.42 132.08)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(uuid "0e1bddcd-57e7-4ac3-adb8-86ee08795c10")
+	)
+	(wire
+		(pts
+			(xy 175.26 147.32) (xy 177.8 147.32)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(uuid "0e8bb0a9-6715-4482-8af4-9884888db30c")
+	)
+	(wire
+		(pts
+			(xy 193.04 132.08) (xy 198.12 132.08)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(uuid "10c06154-52bc-4c8f-b564-d10c45db0e48")
+	)
+	(wire
+		(pts
+			(xy 264.16 116.84) (xy 264.16 119.38)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(uuid "10c45b7e-bb98-4463-b59b-ee15146080a0")
+	)
+	(wire
+		(pts
+			(xy 177.8 147.32) (xy 177.8 139.7)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(uuid "12c67eb5-475d-414d-8543-25db31a5c161")
+	)
+	(wire
+		(pts
+			(xy 210.82 106.68) (xy 210.82 109.22)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(uuid "17d96d29-2b1c-4620-af5b-6c778df76258")
+	)
+	(wire
+		(pts
+			(xy 111.76 142.24) (xy 111.76 139.7)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(uuid "19da819c-334e-4794-a6e9-4011bea3bc53")
+	)
+	(wire
+		(pts
+			(xy 238.76 167.64) (xy 238.76 78.74)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(uuid "1af55dfc-02b9-4cfc-9e49-072587c5f7fe")
+	)
+	(wire
+		(pts
+			(xy 177.8 101.6) (xy 180.34 101.6)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(uuid "1d0912d9-6543-439b-a41d-f85c939af3f3")
+	)
+	(wire
+		(pts
+			(xy 73.66 106.68) (xy 76.2 106.68)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(uuid "1d7c5ea0-6580-4761-96f0-9020aa4cfc2b")
+	)
+	(wire
+		(pts
+			(xy 53.34 132.08) (xy 58.42 132.08)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(uuid "1e43d12e-e785-48b3-9373-381a683e497a")
+	)
+	(wire
+		(pts
+			(xy 198.12 104.14) (xy 195.58 104.14)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(uuid "1ed074be-af6a-4972-b231-8f0dc7f85354")
+	)
+	(wire
+		(pts
+			(xy 259.08 104.14) (xy 259.08 101.6)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(uuid "231b524f-3160-4086-9e86-5bf8b1fc3c9a")
+	)
+	(wire
+		(pts
+			(xy 276.86 116.84) (xy 276.86 119.38)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(uuid "2406f3f7-36fc-411c-8c1d-ecabbcaaab97")
+	)
+	(wire
+		(pts
+			(xy 81.28 132.08) (xy 71.12 132.08)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(uuid "2548f05a-c698-411a-be2c-e98edfb599e3")
+	)
+	(wire
+		(pts
+			(xy 71.12 86.36) (xy 76.2 86.36)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(uuid "260da2d3-9af2-48b1-acd8-bb3dbf2930e2")
+	)
+	(wire
+		(pts
+			(xy 162.56 114.3) (xy 162.56 116.84)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(uuid "29e04079-a054-4b67-bca9-733ef82fd64f")
+	)
+	(wire
+		(pts
+			(xy 162.56 101.6) (xy 162.56 104.14)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(uuid "2f0f7245-0c8c-4e13-b61c-e0bdd6f84d4b")
+	)
+	(wire
+		(pts
+			(xy 198.12 139.7) (xy 190.5 139.7)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(uuid "34712ec4-cbd8-4010-90d5-32956bac6dab")
+	)
+	(wire
+		(pts
+			(xy 48.26 137.16) (xy 48.26 139.7)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(uuid "385e900a-43b2-44bb-b1c2-fbee76f837cb")
+	)
+	(wire
+		(pts
+			(xy 175.26 101.6) (xy 177.8 101.6)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(uuid "3b0047a1-fc58-4507-a7f5-b7db5970ab06")
+	)
+	(wire
+		(pts
+			(xy 71.12 68.58) (xy 73.66 68.58)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(uuid "3c981703-1501-4386-b108-0470b3aa4629")
+	)
+	(wire
+		(pts
+			(xy 177.8 93.98) (xy 177.8 91.44)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(uuid "3fe9c1c4-5f13-4d11-8205-a18edce314ed")
+	)
+	(wire
+		(pts
+			(xy 58.42 132.08) (xy 58.42 142.24)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(uuid "408fd30f-4381-4101-a605-e62d0ae5fe56")
+	)
+	(wire
+		(pts
+			(xy 160.02 147.32) (xy 162.56 147.32)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(uuid "41d7136c-ab1f-4b5d-979e-6473e5d8de1e")
+	)
+	(wire
+		(pts
+			(xy 91.44 60.96) (xy 96.52 60.96)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(uuid "420b5edc-1c0d-40a5-9485-f7fec4961962")
+	)
+	(wire
+		(pts
+			(xy 73.66 73.66) (xy 73.66 76.2)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(uuid "5a8f3d9c-71a0-4547-bf47-a17bce2311f6")
+	)
+	(wire
+		(pts
+			(xy 238.76 78.74) (xy 162.56 78.74)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(uuid "5a8ff4c6-4f71-4d02-bd92-c3af0c3b7b2e")
+	)
+	(wire
+		(pts
+			(xy 99.06 114.3) (xy 99.06 116.84)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(uuid "5bd49be8-c03d-4023-8852-a884f1d83835")
+	)
+	(wire
+		(pts
+			(xy 162.56 160.02) (xy 162.56 162.56)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(uuid "5eb7554e-b009-48b9-96e8-395b65aa2c88")
+	)
+	(wire
+		(pts
+			(xy 60.96 86.36) (xy 58.42 86.36)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(uuid "5fd8e081-2248-4c3c-ac16-5d191c3dc1d9")
+	)
+	(wire
+		(pts
+			(xy 215.9 154.94) (xy 215.9 157.48)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(uuid "61815a2c-ed2e-439a-a434-35ddbad018d7")
+	)
+	(wire
+		(pts
+			(xy 177.8 101.6) (xy 177.8 93.98)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(uuid "63438ef4-4de6-409f-88dc-af4bc9c495da")
+	)
+	(wire
+		(pts
+			(xy 91.44 114.3) (xy 91.44 116.84)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(uuid "64b2c98e-b3ab-42c7-9109-d8f81109b154")
+	)
+	(wire
+		(pts
+			(xy 198.12 86.36) (xy 198.12 93.98)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(uuid "65d09d37-312d-42d8-ac94-993e0645a3f0")
+	)
+	(wire
+		(pts
+			(xy 91.44 73.66) (xy 91.44 76.2)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(uuid "66ec213a-01d5-414a-9116-a205f3d74139")
+	)
+	(wire
+		(pts
+			(xy 99.06 101.6) (xy 99.06 106.68)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(uuid "68004e49-6e58-4a3a-8e20-da6e90f98e2d")
+	)
+	(wire
+		(pts
+			(xy 264.16 116.84) (xy 276.86 116.84)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(uuid "68b984b5-305e-474f-b830-e797e77991e0")
+	)
+	(wire
+		(pts
+			(xy 38.1 132.08) (xy 50.8 132.08)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(uuid "6c3a1481-5b05-4279-b5fe-7a83bbb85331")
+	)
+	(wire
+		(pts
+			(xy 76.2 86.36) (xy 76.2 71.12)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(uuid "6da385a6-3d68-49b0-9f45-1a3496bfb89b")
+	)
+	(wire
+		(pts
+			(xy 175.26 91.44) (xy 177.8 91.44)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(uuid "6dc99e42-2568-4cbe-875e-f08f578b716b")
+	)
+	(wire
+		(pts
+			(xy 198.12 93.98) (xy 198.12 104.14)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(uuid "741446bd-b624-4071-b609-bcc6d98a9458")
+	)
+	(wire
+		(pts
+			(xy 71.12 73.66) (xy 73.66 73.66)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(uuid "744d8e6c-f04d-412c-a794-ed31f38a58bb")
+	)
+	(wire
+		(pts
+			(xy 180.34 106.68) (xy 177.8 106.68)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(uuid "7518b6f8-0956-45d4-a5e7-418d275bb649")
+	)
+	(wire
+		(pts
+			(xy 91.44 63.5) (xy 91.44 60.96)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(uuid "771d9529-8695-42a5-ac85-167b90d11804")
+	)
+	(wire
+		(pts
+			(xy 73.66 101.6) (xy 78.74 101.6)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(uuid "7a205f5b-94fb-44fa-b05a-804cbf6aa946")
+	)
+	(wire
+		(pts
+			(xy 91.44 101.6) (xy 91.44 104.14)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(uuid "7f5c385d-ffa8-4c30-9685-2532c0632d4f")
+	)
+	(wire
+		(pts
+			(xy 210.82 127) (xy 162.56 127)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(uuid "8259e1ff-6b8b-4dc4-bc1f-8859d3b6b7f0")
+	)
+	(wire
+		(pts
+			(xy 177.8 93.98) (xy 180.34 93.98)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(uuid "83b4cc34-0d04-43db-80a8-71479f87d8b4")
+	)
+	(wire
+		(pts
+			(xy 111.76 139.7) (xy 114.3 139.7)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(uuid "8920fe6d-2e71-4ca8-b686-ba81013dc181")
+	)
+	(wire
+		(pts
+			(xy 193.04 86.36) (xy 198.12 86.36)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(uuid "89bb2329-93a5-46e8-82a5-e41acc134470")
+	)
+	(wire
+		(pts
+			(xy 76.2 106.68) (xy 76.2 109.22)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(uuid "8e8647dd-21e1-43c5-b744-cd41193e9336")
+	)
+	(wire
+		(pts
+			(xy 177.8 147.32) (xy 180.34 147.32)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(uuid "90ab9fb4-853f-4f02-8b64-50d52a7775dd")
+	)
+	(wire
+		(pts
+			(xy 259.08 104.14) (xy 264.16 104.14)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(uuid "925571dc-3552-4102-b168-2136092f92a6")
+	)
+	(wire
+		(pts
+			(xy 218.44 106.68) (xy 210.82 106.68)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(uuid "933664d2-02dc-4e6a-94db-921d3752053d")
+	)
+	(wire
+		(pts
+			(xy 162.56 137.16) (xy 165.1 137.16)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(uuid "93f5bc8b-6de4-4de5-93e7-67c678debdb5")
+	)
+	(wire
+		(pts
+			(xy 91.44 101.6) (xy 99.06 101.6)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(uuid "9512f76e-29ee-43b1-9b58-b95678f4b4c5")
+	)
+	(wire
+		(pts
+			(xy 264.16 129.54) (xy 264.16 127)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(uuid "9889e2ec-72bb-4e01-848d-753c5ed89efd")
+	)
+	(wire
+		(pts
+			(xy 73.66 104.14) (xy 81.28 104.14)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(uuid "994c59c4-c7fd-440f-87d8-15955be4b5ac")
+	)
+	(wire
+		(pts
+			(xy 81.28 104.14) (xy 81.28 132.08)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(uuid "9a896b06-6d03-4740-860b-6b5c1a830955")
+	)
+	(wire
+		(pts
+			(xy 162.56 147.32) (xy 165.1 147.32)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(uuid "9acf8d66-830a-45d2-8ef4-1798bb7266cb")
+	)
+	(wire
+		(pts
+			(xy 218.44 154.94) (xy 215.9 154.94)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(uuid "9e5ab0fb-ef09-48ba-8294-8aa1ad691bd9")
+	)
+	(wire
+		(pts
+			(xy 198.12 149.86) (xy 200.66 149.86)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(uuid "9ec43244-4b16-4e1c-8aef-eaaa7e76dbfc")
+	)
+	(wire
+		(pts
+			(xy 177.8 91.44) (xy 177.8 86.36)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(uuid "9f96a331-c4e7-4cc0-a163-6f08e5da9587")
+	)
+	(wire
+		(pts
+			(xy 210.82 167.64) (xy 238.76 167.64)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(uuid "9fac4f5e-00ce-4fba-b3c4-bb30ffc8162b")
+	)
+	(wire
+		(pts
+			(xy 180.34 152.4) (xy 177.8 152.4)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(uuid "a09f0ee5-bbd1-4378-83a8-c14642c15e51")
+	)
+	(wire
+		(pts
+			(xy 91.44 48.26) (xy 91.44 45.72)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(uuid "a0befa0f-3123-4140-b489-72ed55559e8b")
+	)
+	(wire
+		(pts
+			(xy 210.82 119.38) (xy 210.82 127)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(uuid "a16d433e-76a6-464e-8d96-1050922b453f")
+	)
+	(wire
+		(pts
+			(xy 111.76 101.6) (xy 114.3 101.6)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(uuid "a1ff3a8e-229f-4d26-b176-3ae63ef44721")
+	)
+	(wire
+		(pts
+			(xy 58.42 132.08) (xy 60.96 132.08)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(uuid "a3e39fc0-5e90-48fa-8b0e-c6dce2152be0")
+	)
+	(wire
+		(pts
+			(xy 264.16 104.14) (xy 264.16 106.68)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(uuid "a5d6ac00-7571-4dc0-a13b-600e42a6fb62")
+	)
+	(wire
+		(pts
+			(xy 88.9 101.6) (xy 91.44 101.6)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(uuid "a69ec68e-cf0a-442d-a485-819b16f75b4c")
+	)
+	(wire
+		(pts
+			(xy 198.12 132.08) (xy 198.12 139.7)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(uuid "a8c59f37-c445-406c-b804-e4535e7464e7")
+	)
+	(wire
+		(pts
+			(xy 177.8 139.7) (xy 180.34 139.7)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(uuid "a900b409-2f48-4942-99a7-b45839c91a78")
+	)
+	(wire
+		(pts
+			(xy 177.8 106.68) (xy 177.8 109.22)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(uuid "a9e524c2-0675-477c-a14b-af06fb348075")
+	)
+	(wire
+		(pts
+			(xy 259.08 129.54) (xy 259.08 132.08)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(uuid "aa33c912-ca77-427d-91de-5387a41b9cf3")
+	)
+	(wire
+		(pts
+			(xy 259.08 129.54) (xy 264.16 129.54)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(uuid "ab791785-61b2-4e71-a599-04adf7c9839f")
+	)
+	(wire
+		(pts
+			(xy 111.76 152.4) (xy 111.76 154.94)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(uuid "afc50e65-1f2f-4c87-9958-70f56769e29f")
+	)
+	(wire
+		(pts
+			(xy 198.12 139.7) (xy 198.12 149.86)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(uuid "b1fe4487-542b-442d-b297-813de64cdcc7")
+	)
+	(wire
+		(pts
+			(xy 177.8 152.4) (xy 177.8 154.94)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(uuid "b240733e-7faa-4bc7-b9d9-4ebe58f388d3")
+	)
+	(wire
+		(pts
+			(xy 160.02 101.6) (xy 162.56 101.6)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(uuid "b33b8d67-7b55-431e-b907-18f44d431d50")
+	)
+	(wire
+		(pts
+			(xy 198.12 93.98) (xy 190.5 93.98)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(uuid "b4821ef4-0976-4c50-871b-ef4dc2132382")
+	)
+	(wire
+		(pts
+			(xy 76.2 71.12) (xy 71.12 71.12)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(uuid "b5a15a05-a2dc-4774-9944-ba98de163355")
+	)
+	(wire
+		(pts
+			(xy 58.42 142.24) (xy 60.96 142.24)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(uuid "be5f0d63-f9b4-4b15-a617-cdd259d44ae8")
+	)
+	(wire
+		(pts
+			(xy 71.12 142.24) (xy 81.28 142.24)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(uuid "c4de1b78-45ef-41e0-9c7b-9f644fc3657f")
+	)
+	(wire
+		(pts
+			(xy 259.08 109.22) (xy 259.08 104.14)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(uuid "c9256374-8b24-4e3b-bc8c-bbaf1136cd98")
+	)
+	(wire
+		(pts
+			(xy 259.08 124.46) (xy 259.08 129.54)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(uuid "c92f0a06-34cd-4fca-b61f-a88e61d8769e")
+	)
+	(wire
+		(pts
+			(xy 198.12 104.14) (xy 200.66 104.14)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(uuid "cac596c2-008e-4c72-9d5f-0d70db404145")
+	)
+	(wire
+		(pts
+			(xy 210.82 152.4) (xy 210.82 167.64)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(uuid "cd98627f-7bdf-4d2e-a131-3e893a87bdcb")
+	)
+	(wire
+		(pts
+			(xy 215.9 109.22) (xy 215.9 111.76)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(uuid "ce50e2ba-b4e1-449d-8115-fab3dcbdc509")
+	)
+	(wire
+		(pts
+			(xy 83.82 68.58) (xy 86.36 68.58)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(uuid "d180c63d-78cb-4094-9b29-04c519e9526d")
+	)
+	(wire
+		(pts
+			(xy 264.16 114.3) (xy 264.16 116.84)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(uuid "d298803a-e095-44d1-9723-5e31f7084047")
+	)
+	(wire
+		(pts
+			(xy 210.82 104.14) (xy 218.44 104.14)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(uuid "d37e5cbf-f6bf-473b-bcc0-791360656996")
+	)
+	(wire
+		(pts
+			(xy 162.56 127) (xy 162.56 137.16)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(uuid "d61cacf6-3e3a-42bb-b10f-08411160413b")
+	)
+	(wire
+		(pts
+			(xy 91.44 60.96) (xy 91.44 58.42)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(uuid "d79e8f87-a4fd-4264-805a-ce0187dd9f63")
+	)
+	(wire
+		(pts
+			(xy 152.4 101.6) (xy 149.86 101.6)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(uuid "d85f877f-70d8-430f-9c55-d1e28c754b8c")
+	)
+	(wire
+		(pts
+			(xy 162.56 147.32) (xy 162.56 149.86)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(uuid "db3a532d-f5c0-47bf-a03d-8e5e9d777d30")
+	)
+	(wire
+		(pts
+			(xy 162.56 101.6) (xy 165.1 101.6)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(uuid "e092e3eb-281c-41e3-98ec-600f2adc7740")
+	)
+	(wire
+		(pts
+			(xy 218.44 152.4) (xy 210.82 152.4)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(uuid "e208ae68-ab08-47a5-9d75-9b8e9e47d828")
+	)
+	(wire
+		(pts
+			(xy 198.12 149.86) (xy 195.58 149.86)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(uuid "ecdae3fc-bb68-4eab-989f-987d408180a4")
+	)
+	(wire
+		(pts
+			(xy 99.06 101.6) (xy 104.14 101.6)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(uuid "ece8159c-9c0b-41d6-92a1-c00d039c4f37")
+	)
+	(wire
+		(pts
+			(xy 175.26 137.16) (xy 177.8 137.16)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(uuid "ed77e548-e9fa-4b82-a736-55dad007a7bf")
+	)
+	(wire
+		(pts
+			(xy 48.26 127) (xy 48.26 124.46)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(uuid "f4c6739f-eb7b-470b-8cbf-1f29c4234a65")
+	)
+	(wire
+		(pts
+			(xy 177.8 137.16) (xy 177.8 132.08)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(uuid "fae9ef03-2145-4d0f-818f-c9b7f75f7bbe")
+	)
+	(wire
+		(pts
+			(xy 177.8 139.7) (xy 177.8 137.16)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(uuid "fb7860b8-54ac-4569-9559-b3495cae823f")
+	)
+	(wire
+		(pts
+			(xy 58.42 86.36) (xy 58.42 132.08)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(uuid "fce3a4b7-6095-4c5d-897f-1be1058c1e0e")
+	)
+	(wire
+		(pts
+			(xy 210.82 149.86) (xy 218.44 149.86)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(uuid "fe6f1476-2c82-42c1-9bb4-4357c87aabc9")
+	)
+	(wire
+		(pts
+			(xy 177.8 86.36) (xy 185.42 86.36)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(uuid "ff79a3bd-3c05-4e21-84ac-d50a81e318e1")
+	)
+	(text "GND"
+		(exclude_from_sim no)
+		(at 160.655 121.418 90)
+		(effects
+			(font
+				(size 1.48 1.48)
+			)
+			(justify left bottom)
+		)
+		(uuid "00936e68-62f1-4629-a458-5a4837ffb10f")
+	)
+	(text "J8"
+		(exclude_from_sim no)
+		(at 65.947 101.346 0)
+		(effects
+			(font
+				(size 1.48 1.48)
+			)
+			(justify left bottom)
+		)
+		(uuid "018f6d5a-aff9-4282-a85b-768efc27c858")
+	)
+	(text "1.0k"
+		(exclude_from_sim no)
+		(at 203.867 150.876 0)
+		(effects
+			(font
+				(size 1.48 1.48)
+			)
+			(justify left top)
+		)
+		(uuid "0224b9cb-6986-4a55-9c8c-83b249927970")
+	)
+	(text "R8"
+		(exclude_from_sim no)
+		(at 90.424 54.595 90)
+		(effects
+			(font
+				(size 1.48 1.48)
+			)
+			(justify left bottom)
+		)
+		(uuid "05c27911-a19c-4941-83f0-9a6e957f2c04")
+	)
+	(text "220p"
+		(exclude_from_sim no)
+		(at 101.6 113.165 90)
+		(effects
+			(font
+				(size 1.48 1.48)
+			)
+			(justify left top)
+		)
+		(uuid "085794c5-9c4f-4223-9c32-ef08f4c15ef6")
+	)
+	(text "6.8k"
+		(exclude_from_sim no)
+		(at 92.456 111.383 90)
+		(effects
+			(font
+				(size 1.48 1.48)
+			)
+			(justify left top)
+		)
+		(uuid "08891bad-ff6e-4f36-a97f-5b3d8359734e")
+	)
+	(text "GND"
+		(exclude_from_sim no)
+		(at 93.345 121.418 90)
+		(effects
+			(font
+				(size 1.48 1.48)
+			)
+			(justify left top)
+		)
+		(uuid "0dbace1e-2def-46e3-9396-d9e5fdad923f")
+	)
+	(text "GND"
+		(exclude_from_sim no)
+		(at 179.705 113.798 90)
+		(effects
+			(font
+				(size 1.48 1.48)
+			)
+			(justify left top)
+		)
+		(uuid "116b77c8-e0be-4342-aa6e-981764954a51")
+	)
+	(text "D3"
+		(exclude_from_sim no)
+		(at 46.99 133.336 90)
+		(effects
+			(font
+				(size 1.48 1.48)
+			)
+			(justify left bottom)
+		)
+		(uuid "1b74f3c8-a54d-405a-b821-ff7ac179204f")
+	)
+	(text "C49"
+		(exclude_from_sim no)
+		(at 96.52 112.528 90)
+		(effects
+			(font
+				(size 1.48 1.48)
+			)
+			(justify left bottom)
+		)
+		(uuid "1bc9c5f9-7c73-449b-b729-ff63f4d1493c")
+	)
+	(text "GND"
+		(exclude_from_sim no)
+		(at 89.535 121.418 90)
+		(effects
+			(font
+				(size 1.48 1.48)
+			)
+			(justify left bottom)
+		)
+		(uuid "1c7219ba-e747-4766-92ea-31c40f9da2b6")
+	)
+	(text "R55"
+		(exclude_from_sim no)
+		(at 203.738 103.124 0)
+		(effects
+			(font
+				(size 1.48 1.48)
+			)
+			(justify left bottom)
+		)
+		(uuid "1cadda47-2e87-4478-ac3a-646a541a27bd")
+	)
+	(text "47k"
+		(exclude_from_sim no)
+		(at 163.576 111.149 90)
+		(effects
+			(font
+				(size 1.48 1.48)
+			)
+			(justify left top)
+		)
+		(uuid "2275f4db-516b-442c-8991-5aab162a1b9a")
+	)
+	(text "10k"
+		(exclude_from_sim no)
+		(at 92.456 54.905 90)
+		(effects
+			(font
+				(size 1.48 1.48)
+			)
+			(justify left top)
+		)
+		(uuid "22bf3d74-0c48-44f4-8820-59f72e30d990")
+	)
+	(text "R56"
+		(exclude_from_sim no)
+		(at 203.775 148.844 0)
+		(effects
+			(font
+				(size 1.48 1.48)
+			)
+			(justify left bottom)
+		)
+		(uuid "22cd36b0-970d-4326-8121-127ed7e67419")
+	)
+	(text "47k"
+		(exclude_from_sim no)
+		(at 163.576 156.869 90)
+		(effects
+			(font
+				(size 1.48 1.48)
+			)
+			(justify left top)
+		)
+		(uuid "2838cfbf-ad6f-4ff3-872a-01855ca9d0bc")
+	)
+	(text "R39"
+		(exclude_from_sim no)
+		(at 168.214 90.424 0)
+		(effects
+			(font
+				(size 1.48 1.48)
+			)
+			(justify left bottom)
+		)
+		(uuid "2876047e-23cd-4cc6-a773-dd0fe9fdb079")
+	)
+	(text "C42"
+		(exclude_from_sim no)
+		(at 187.156 83.82 0)
+		(effects
+			(font
+				(size 1.48 1.48)
+			)
+			(justify left bottom)
+		)
+		(uuid "28cd7989-5671-4468-beb2-3acca830ba3c")
+	)
+	(text "47k"
+		(exclude_from_sim no)
+		(at 183.491 140.716 0)
+		(effects
+			(font
+				(size 1.48 1.48)
+			)
+			(justify left top)
+		)
+		(uuid "2cabd410-a462-4374-879a-a9e663e031a8")
+	)
+	(text "GND"
+		(exclude_from_sim no)
+		(at 74.295 113.798 90)
+		(effects
+			(font
+				(size 1.48 1.48)
+			)
+			(justify left bottom)
+		)
+		(uuid "2eeb02e3-c5c9-4c54-87de-cf5c20247b92")
+	)
+	(text "100k"
+		(exclude_from_sim no)
+		(at 63.73 87.376 0)
+		(effects
+			(font
+				(size 1.48 1.48)
+			)
+			(justify left top)
+		)
+		(uuid "2eef27ee-1aa1-4f39-8e47-4fd6ecc7b6ae")
+	)
+	(text "36k"
+		(exclude_from_sim no)
+		(at 112.776 149.175 90)
+		(effects
+			(font
+				(size 1.48 1.48)
+			)
+			(justify left top)
+		)
+		(uuid "33cd33fb-cc9d-4e8d-a05b-a7873c8e0e84")
+	)
+	(text "GND"
+		(exclude_from_sim no)
+		(at 160.655 167.138 90)
+		(effects
+			(font
+				(size 1.48 1.48)
+			)
+			(justify left bottom)
+		)
+		(uuid "371a9f41-31b7-487a-a4ce-af08b6a041e8")
+	)
+	(text "R11"
+		(exclude_from_sim no)
+		(at 77.393 67.564 0)
+		(effects
+			(font
+				(size 1.48 1.48)
+			)
+			(justify left bottom)
+		)
+		(uuid "378fe85f-b6a8-4c65-82c8-42d5f55658f0")
+	)
+	(text "C40"
+		(exclude_from_sim no)
+		(at 106.464 99.06 0)
+		(effects
+			(font
+				(size 1.48 1.48)
+			)
+			(justify left bottom)
+		)
+		(uuid "3c288e23-0ba5-40d0-8f20-9be0783929ce")
+	)
+	(text "SOLDERJUMPERNC2"
+		(exclude_from_sim no)
+		(at 211.455 125.139 90)
+		(effects
+			(font
+				(size 1.48 1.48)
+			)
+			(justify left top)
+		)
+		(uuid "3c2b323d-8c14-4f67-8c2c-660cda9a9170")
+	)
+	(text "R38"
+		(exclude_from_sim no)
+		(at 161.544 156.941 90)
+		(effects
+			(font
+				(size 1.48 1.48)
+			)
+			(justify left bottom)
+		)
+		(uuid "3d3f03f8-014a-4f4c-9260-65828ea5085b")
+	)
+	(text "GND"
+		(exclude_from_sim no)
+		(at 213.995 116.338 90)
+		(effects
+			(font
+				(size 1.48 1.48)
+			)
+			(justify left bottom)
+		)
+		(uuid "3f743c07-409b-4ec6-8c06-923e8ae420fa")
+	)
+	(text "6.8k"
+		(exclude_from_sim no)
+		(at 168.017 148.336 0)
+		(effects
+			(font
+				(size 1.48 1.48)
+			)
+			(justify left top)
+		)
+		(uuid "404be9c7-b07f-452d-b014-b64f1903df85")
+	)
+	(text "GND"
+		(exclude_from_sim no)
+		(at 217.805 116.338 90)
+		(effects
+			(font
+				(size 1.48 1.48)
+			)
+			(justify left top)
+		)
+		(uuid "469f11ac-d858-4dcb-b4a2-ab345ee2078a")
+	)
+	(text "GND"
+		(exclude_from_sim no)
+		(at 109.855 159.518 90)
+		(effects
+			(font
+				(size 1.48 1.48)
+			)
+			(justify left bottom)
+		)
+		(uuid "46a792a6-7473-4290-a92f-584a9dee5a19")
+	)
+	(text "470k"
+		(exclude_from_sim no)
+		(at 63.366 143.256 0)
+		(effects
+			(font
+				(size 1.48 1.48)
+			)
+			(justify left top)
+		)
+		(uuid "47d5f864-ec89-4b92-b55f-0786b976b689")
+	)
+	(text "SJ1"
+		(exclude_from_sim no)
+		(at 210.185 115.829 90)
+		(effects
+			(font
+				(size 1.48 1.48)
+			)
+			(justify left bottom)
+		)
+		(uuid "4902dde6-d399-4162-b5ce-ec0013ba38b4")
+	)
+	(text "C33"
+		(exclude_from_sim no)
+		(at 153.584 144.78 0)
+		(effects
+			(font
+				(size 1.48 1.48)
+			)
+			(justify left bottom)
+		)
+		(uuid "4b93402c-a823-4b4e-8833-ea928a0cbf39")
+	)
+	(text "PJ301_THONKICONN6"
+		(exclude_from_sim no)
+		(at 55.273 106.934 0)
+		(effects
+			(font
+				(size 1.48 1.48)
+			)
+			(justify left top)
+		)
+		(uuid "4dcb36f6-7ef3-4978-8ae6-19c75ac58c76")
+	)
+	(text "+3V3"
+		(exclude_from_sim no)
+		(at 88.474 47.625 0)
+		(effects
+			(font
+				(size 1.48 1.48)
+			)
+			(justify left top)
+		)
+		(uuid "4e0dd016-2654-45cb-9cac-19b971d55051")
+	)
+	(text "GND"
+		(exclude_from_sim no)
+		(at 78.105 113.798 90)
+		(effects
+			(font
+				(size 1.48 1.48)
+			)
+			(justify left top)
+		)
+		(uuid "525c2666-fd10-431f-adf5-1bdaa7009e1c")
+	)
+	(text "GND"
+		(exclude_from_sim no)
+		(at 213.995 162.058 90)
+		(effects
+			(font
+				(size 1.48 1.48)
+			)
+			(justify left bottom)
+		)
+		(uuid "53fcbcbb-ec68-40c3-b493-f0e68e819865")
+	)
+	(text "J9"
+		(exclude_from_sim no)
+		(at 223.971 103.886 0)
+		(effects
+			(font
+				(size 1.48 1.48)
+			)
+			(justify left bottom)
+		)
+		(uuid "5499ec6a-b2b8-47bd-b89e-01b93c82b026")
+	)
+	(text "47k"
+		(exclude_from_sim no)
+		(at 168.251 138.176 0)
+		(effects
+			(font
+				(size 1.48 1.48)
+			)
+			(justify left top)
+		)
+		(uuid "5558b388-0650-4bf8-a542-408f34321ac5")
+	)
+	(text "47k"
+		(exclude_from_sim no)
+		(at 168.251 92.456 0)
+		(effects
+			(font
+				(size 1.48 1.48)
+			)
+			(justify left top)
+		)
+		(uuid "55ce3a68-038d-452c-b944-897488ca62b2")
+	)
+	(text "R54"
+		(exclude_from_sim no)
+		(at 81.782 100.584 0)
+		(effects
+			(font
+				(size 1.48 1.48)
+			)
+			(justify left bottom)
+		)
+		(uuid "597021b4-cbe1-415c-867f-0f2c756eeb0d")
+	)
+	(text "1.0k"
+		(exclude_from_sim no)
+		(at 203.867 105.156 0)
+		(effects
+			(font
+				(size 1.48 1.48)
+			)
+			(justify left top)
+		)
+		(uuid "624bacd4-c6e4-40e5-833a-b879b426cf94")
+	)
+	(text "R40"
+		(exclude_from_sim no)
+		(at 168.142 100.584 0)
+		(effects
+			(font
+				(size 1.48 1.48)
+			)
+			(justify left bottom)
+		)
+		(uuid "63778196-a1d1-4fc9-bb41-d43bea68f09b")
+	)
+	(text "J6"
+		(exclude_from_sim no)
+		(at 63.444 68.326 0)
+		(effects
+			(font
+				(size 1.48 1.48)
+			)
+			(justify left bottom)
+		)
+		(uuid "642b799d-a420-47aa-b0ac-83f8f24e60d7")
+	)
+	(text "PJ301_THONKICONN6"
+		(exclude_from_sim no)
+		(at 213.261 155.194 0)
+		(effects
+			(font
+				(size 1.48 1.48)
+			)
+			(justify left top)
+		)
+		(uuid "65393619-62eb-43a4-9c2f-46bdc6469be0")
+	)
+	(text "10u"
+		(exclude_from_sim no)
+		(at 154.057 149.86 0)
+		(effects
+			(font
+				(size 1.48 1.48)
+			)
+			(justify left top)
+		)
+		(uuid "6a256471-2bcb-49f9-ad04-75417990b8f8")
+	)
+	(text "GND"
+		(exclude_from_sim no)
+		(at 46.355 144.278 90)
+		(effects
+			(font
+				(size 1.48 1.48)
+			)
+			(justify left bottom)
+		)
+		(uuid "6a93e3ef-b847-497b-9500-b9bbe225828c")
+	)
+	(text "VEE"
+		(exclude_from_sim no)
+		(at 260.35 137.89 90)
+		(effects
+			(font
+				(size 1.48 1.48)
+			)
+			(justify left top)
+		)
+		(uuid "6bc61746-f4f4-4b03-a70f-eea5b40edcf5")
+	)
+	(text "R57"
+		(exclude_from_sim no)
+		(at 64.038 141.224 0)
+		(effects
+			(font
+				(size 1.48 1.48)
+			)
+			(justify left bottom)
+		)
+		(uuid "71c62595-fdb8-4e81-88e7-c08697b27d54")
+	)
+	(text "10u"
+		(exclude_from_sim no)
+		(at 154.057 104.14 0)
+		(effects
+			(font
+				(size 1.48 1.48)
+			)
+			(justify left top)
+		)
+		(uuid "7371a7b9-7e34-4b57-9398-a9a6bdb595d7")
+	)
+	(text "GND"
+		(exclude_from_sim no)
+		(at 217.805 162.058 90)
+		(effects
+			(font
+				(size 1.48 1.48)
+			)
+			(justify left top)
+		)
+		(uuid "782db99b-a440-4e1e-b2eb-3e7573afc2d7")
+	)
+	(text "GND"
+		(exclude_from_sim no)
+		(at 113.665 159.518 90)
+		(effects
+			(font
+				(size 1.48 1.48)
+			)
+			(justify left top)
+		)
+		(uuid "783d3bbc-8200-4f23-aff1-840b1782b120")
+	)
+	(text "R43"
+		(exclude_from_sim no)
+		(at 168.142 146.304 0)
+		(effects
+			(font
+				(size 1.48 1.48)
+			)
+			(justify left bottom)
+		)
+		(uuid "78e3f1ef-6815-4b4e-ba51-37dccce61d88")
+	)
+	(text "+3V3"
+		(exclude_from_sim no)
+		(at 88.474 43.18 0)
+		(effects
+			(font
+				(size 1.48 1.48)
+			)
+			(justify left bottom)
+		)
+		(uuid "7b03b32c-4405-4e5d-9581-194412523f3b")
+	)
+	(text "GND"
+		(exclude_from_sim no)
+		(at 175.895 159.518 90)
+		(effects
+			(font
+				(size 1.48 1.48)
+			)
+			(justify left bottom)
+		)
+		(uuid "7b660682-8b11-4ad5-809d-68635f360db2")
+	)
+	(text "R51"
+		(exclude_from_sim no)
+		(at 90.424 110.894 90)
+		(effects
+			(font
+				(size 1.48 1.48)
+			)
+			(justify left bottom)
+		)
+		(uuid "7f6c0cad-c362-432e-bb18-18811c146381")
+	)
+	(text "R52"
+		(exclude_from_sim no)
+		(at 64.038 85.344 0)
+		(effects
+			(font
+				(size 1.48 1.48)
+			)
+			(justify left bottom)
+		)
+		(uuid "803a3fec-4fea-4912-a838-7f8becdd09a7")
+	)
+	(text "GND"
+		(exclude_from_sim no)
+		(at 89.535 80.778 90)
+		(effects
+			(font
+				(size 1.48 1.48)
+			)
+			(justify left bottom)
+		)
+		(uuid "81dbec32-81cd-49ed-a5b3-1bf4803ef445")
+	)
+	(text "GND"
+		(exclude_from_sim no)
+		(at 164.465 167.138 90)
+		(effects
+			(font
+				(size 1.48 1.48)
+			)
+			(justify left top)
+		)
+		(uuid "84076fb7-44e6-473a-972e-fc577b8e784a")
+	)
+	(text "GND"
+		(exclude_from_sim no)
+		(at 71.755 80.778 90)
+		(effects
+			(font
+				(size 1.48 1.48)
+			)
+			(justify left bottom)
+		)
+		(uuid "854637e8-c2bd-4f84-aaac-a27d6c9ff056")
+	)
+	(text "MMBT3904"
+		(exclude_from_sim no)
+		(at 86.11 74.456 90)
+		(effects
+			(font
+				(size 1.48 1.48)
+			)
+			(justify left bottom)
+		)
+		(uuid "879e90d0-aafc-46a0-bf30-677f61998840")
+	)
+	(text "J10"
+		(exclude_from_sim no)
+		(at 223.517 149.606 0)
+		(effects
+			(font
+				(size 1.48 1.48)
+			)
+			(justify left bottom)
+		)
+		(uuid "896af993-8bba-48ba-8822-4be9e16d672e")
+	)
+	(text "1M"
+		(exclude_from_sim no)
+		(at 65.039 133.096 0)
+		(effects
+			(font
+				(size 1.48 1.48)
+			)
+			(justify left top)
+		)
+		(uuid "8d5c6a56-d7e6-4853-b1cb-f2f3b320bce9")
+	)
+	(text "GND"
+		(exclude_from_sim no)
+		(at 75.565 80.778 90)
+		(effects
+			(font
+				(size 1.48 1.48)
+			)
+			(justify left top)
+		)
+		(uuid "963c8955-e9c1-4a77-a675-3ae2880cca0e")
+	)
+	(text "100n"
+		(exclude_from_sim no)
+		(at 266.7 125.5 90)
+		(effects
+			(font
+				(size 1.48 1.48)
+			)
+			(justify left top)
+		)
+		(uuid "9652f7c4-79bf-4d1c-b5d3-2c1fceefb2bd")
+	)
+	(text "100n"
+		(exclude_from_sim no)
+		(at 266.7 112.8 90)
+		(effects
+			(font
+				(size 1.48 1.48)
+			)
+			(justify left top)
+		)
+		(uuid "97548a75-ee4b-46a2-80c8-bed3b8f61a1b")
+	)
+	(text "GND"
+		(exclude_from_sim no)
+		(at 50.165 144.278 90)
+		(effects
+			(font
+				(size 1.48 1.48)
+			)
+			(justify left top)
+		)
+		(uuid "985f4827-74ba-477e-9f84-b8d0a5358455")
+	)
+	(text "GND"
+		(exclude_from_sim no)
+		(at 93.345 80.778 90)
+		(effects
+			(font
+				(size 1.48 1.48)
+			)
+			(justify left top)
+		)
+		(uuid "9c2685bc-e413-4572-8807-20decc453569")
+	)
+	(text "C32"
+		(exclude_from_sim no)
+		(at 153.584 99.06 0)
+		(effects
+			(font
+				(size 1.48 1.48)
+			)
+			(justify left bottom)
+		)
+		(uuid "9f151b63-ea2b-4774-8bb4-f1b3c09ef7b0")
+	)
+	(text "C43"
+		(exclude_from_sim no)
+		(at 187.156 129.54 0)
+		(effects
+			(font
+				(size 1.48 1.48)
+			)
+			(justify left bottom)
+		)
+		(uuid "a47aca54-987e-4983-81f9-9f11ec552e09")
+	)
+	(text "PJ301_THONKICONN6"
+		(exclude_from_sim no)
+		(at 213.261 109.474 0)
+		(effects
+			(font
+				(size 1.48 1.48)
+			)
+			(justify left top)
+		)
+		(uuid "a79a3dd6-50ac-43a4-a116-add11b822148")
+	)
+	(text "R33"
+		(exclude_from_sim no)
+		(at 161.544 111.222 90)
+		(effects
+			(font
+				(size 1.48 1.48)
+			)
+			(justify left bottom)
+		)
+		(uuid "a99522a3-b92f-47c3-9507-d256dad0b609")
+	)
+	(text "IC8.P"
+		(exclude_from_sim no)
+		(at 259.02 119.421 90)
+		(effects
+			(font
+				(size 1.48 1.48)
+			)
+			(justify left bottom)
+		)
+		(uuid "b253a19d-0c81-4344-bf80-921358e23200")
+	)
+	(text "TL072"
+		(exclude_from_sim no)
+		(at 184.54 109.22 0)
+		(effects
+			(font
+				(size 1.48 1.48)
+			)
+			(justify left top)
+		)
+		(uuid "b2ce65a0-1c55-4b42-8c08-30e2a22deec1")
+	)
+	(text "GND"
+		(exclude_from_sim no)
+		(at 278.765 123.958 90)
+		(effects
+			(font
+				(size 1.48 1.48)
+			)
+			(justify left top)
+		)
+		(uuid "b3dc8a1e-9082-4864-90a8-40d3f1dab02c")
+	)
+	(text "VCC"
+		(exclude_from_sim no)
+		(at 256.933 99.06 0)
+		(effects
+			(font
+				(size 1.48 1.48)
+			)
+			(justify left bottom)
+		)
+		(uuid "b575d73f-70cc-4373-9609-c774513f765e")
+	)
+	(text "18p"
+		(exclude_from_sim no)
+		(at 187.629 88.9 0)
+		(effects
+			(font
+				(size 1.48 1.48)
+			)
+			(justify left top)
+		)
+		(uuid "b82dc87b-6d24-4db0-9df4-41350101c1d3")
+	)
+	(text "GND"
+		(exclude_from_sim no)
+		(at 274.955 123.958 90)
+		(effects
+			(font
+				(size 1.48 1.48)
+			)
+			(justify left bottom)
+		)
+		(uuid "b8ff0b7d-e5b9-4c02-9cf1-9a53b06d79ba")
+	)
+	(text "R53"
+		(exclude_from_sim no)
+		(at 64.038 131.064 0)
+		(effects
+			(font
+				(size 1.48 1.48)
+			)
+			(justify left bottom)
+		)
+		(uuid "b9873402-fa8b-484a-825c-652dff2407e6")
+	)
+	(text "100k"
+		(exclude_from_sim no)
+		(at 76.43 69.596 0)
+		(effects
+			(font
+				(size 1.48 1.48)
+			)
+			(justify left top)
+		)
+		(uuid "b9ec3c9b-9a1d-460c-8319-559a906ed6db")
+	)
+	(text "R41"
+		(exclude_from_sim no)
+		(at 183.71 92.964 0)
+		(effects
+			(font
+				(size 1.48 1.48)
+			)
+			(justify left bottom)
+		)
+		(uuid "bf0c6945-7ea5-459b-b9cf-cd40948eb315")
+	)
+	(text "GND"
+		(exclude_from_sim no)
+		(at 97.155 121.418 90)
+		(effects
+			(font
+				(size 1.48 1.48)
+			)
+			(justify left bottom)
+		)
+		(uuid "c08bb5ac-d1c7-4388-9575-471800435536")
+	)
+	(text "GND"
+		(exclude_from_sim no)
+		(at 179.705 159.518 90)
+		(effects
+			(font
+				(size 1.48 1.48)
+			)
+			(justify left top)
+		)
+		(uuid "c2ce6ea2-0a2b-4471-a644-7ca132c667b6")
+	)
+	(text "IC8.B"
+		(exclude_from_sim no)
+		(at 185.379 99.06 0)
+		(effects
+			(font
+				(size 1.48 1.48)
+			)
+			(justify left bottom)
+		)
+		(uuid "cbb85b57-ff3a-4bef-9d47-42d38fa15cdd")
+	)
+	(text "6.8k"
+		(exclude_from_sim no)
+		(at 168.017 102.616 0)
+		(effects
+			(font
+				(size 1.48 1.48)
+			)
+			(justify left top)
+		)
+		(uuid "cdbcdc65-942c-48b0-9e1d-81b46b3dbfff")
+	)
+	(text "18p"
+		(exclude_from_sim no)
+		(at 187.629 134.62 0)
+		(effects
+			(font
+				(size 1.48 1.48)
+			)
+			(justify left top)
+		)
+		(uuid "d2b1d51e-4cc8-46ca-8e71-cf04e5dc4da9")
+	)
+	(text "GND"
+		(exclude_from_sim no)
+		(at 164.465 121.418 90)
+		(effects
+			(font
+				(size 1.48 1.48)
+			)
+			(justify left top)
+		)
+		(uuid "d304e1bd-da8f-4135-b6d0-c9004df0287f")
+	)
+	(text "VCC"
+		(exclude_from_sim no)
+		(at 256.933 102.87 0)
+		(effects
+			(font
+				(size 1.48 1.48)
+			)
+			(justify left top)
+		)
+		(uuid "d3d71376-1cfb-4164-9bbd-96b0e8289c4c")
+	)
+	(text "GND"
+		(exclude_from_sim no)
+		(at 175.895 113.798 90)
+		(effects
+			(font
+				(size 1.48 1.48)
+			)
+			(justify left bottom)
+		)
+		(uuid "d4f811a3-f16a-4526-9ee3-74aa24748f3c")
+	)
+	(text "PJ301_THONKICONN6"
+		(exclude_from_sim no)
+		(at 52.733 73.914 0)
+		(effects
+			(font
+				(size 1.48 1.48)
+			)
+			(justify left top)
+		)
+		(uuid "dd028cbd-0a90-43c6-b4ac-9d8dc6e6ea14")
+	)
+	(text "10u"
+		(exclude_from_sim no)
+		(at 106.973 104.14 0)
+		(effects
+			(font
+				(size 1.48 1.48)
+			)
+			(justify left top)
+		)
+		(uuid "dd8fda0c-ac6a-4dcc-90d2-cd1bd9faf83f")
+	)
+	(text "TL072"
+		(exclude_from_sim no)
+		(at 259.14 120.26 90)
+		(effects
+			(font
+				(size 1.48 1.48)
+			)
+			(justify left top)
+		)
+		(uuid "de74d305-7041-48ed-ac47-00b74d37a09c")
+	)
+	(text "BAT54S"
+		(exclude_from_sim no)
+		(at 52.07 136.429 90)
+		(effects
+			(font
+				(size 1.48 1.48)
+			)
+			(justify left top)
+		)
+		(uuid "df0b96cd-5927-4c62-bcde-9e89312ad76f")
+	)
+	(text "36k"
+		(exclude_from_sim no)
+		(at 81.965 102.616 0)
+		(effects
+			(font
+				(size 1.48 1.48)
+			)
+			(justify left top)
+		)
+		(uuid "e1f6a615-07e7-4f22-bb41-151a6efd86db")
+	)
+	(text "VEE"
+		(exclude_from_sim no)
+		(at 257.81 137.89 90)
+		(effects
+			(font
+				(size 1.48 1.48)
+			)
+			(justify left bottom)
+		)
+		(uuid "e5007cf1-0cec-4624-bb90-bbf06f4303a5")
+	)
+	(text "GND"
+		(exclude_from_sim no)
+		(at 100.965 121.418 90)
+		(effects
+			(font
+				(size 1.48 1.48)
+			)
+			(justify left top)
+		)
+		(uuid "e6615e36-d89d-487c-853e-e1012e22865a")
+	)
+	(text "R44"
+		(exclude_from_sim no)
+		(at 168.106 136.144 0)
+		(effects
+			(font
+				(size 1.48 1.48)
+			)
+			(justify left bottom)
+		)
+		(uuid "ea884919-bc03-492e-9b54-b29b36878d41")
+	)
+	(text "C45"
+		(exclude_from_sim no)
+		(at 261.62 125.264 90)
+		(effects
+			(font
+				(size 1.48 1.48)
+			)
+			(justify left bottom)
+		)
+		(uuid "ef7fad3c-a763-468d-9afe-fc11fe16ee86")
+	)
+	(text "47k"
+		(exclude_from_sim no)
+		(at 183.491 94.996 0)
+		(effects
+			(font
+				(size 1.48 1.48)
+			)
+			(justify left top)
+		)
+		(uuid "f43db6af-2f85-4af9-829e-3357b696199d")
+	)
+	(text "R27"
+		(exclude_from_sim no)
+		(at 110.744 149.322 90)
+		(effects
+			(font
+				(size 1.48 1.48)
+			)
+			(justify left bottom)
+		)
+		(uuid "f498193d-d437-498b-aece-477f51303725")
+	)
+	(text "C39"
+		(exclude_from_sim no)
+		(at 261.62 112.492 90)
+		(effects
+			(font
+				(size 1.48 1.48)
+			)
+			(justify left bottom)
+		)
+		(uuid "f5a3f1cf-c9a1-4e37-8df9-82777bda12ef")
+	)
+	(text "IC8.A"
+		(exclude_from_sim no)
+		(at 185.306 144.78 0)
+		(effects
+			(font
+				(size 1.48 1.48)
+			)
+			(justify left bottom)
+		)
+		(uuid "f7fbc153-ab73-4247-bf25-4f1357d1b831")
+	)
+	(text "TL072"
+		(exclude_from_sim no)
+		(at 184.54 154.94 0)
+		(effects
+			(font
+				(size 1.48 1.48)
+			)
+			(justify left top)
+		)
+		(uuid "f8d92c32-9704-44f4-ba07-abaee636d803")
+	)
+	(text "Q2"
+		(exclude_from_sim no)
+		(at 91.44 69.91 90)
+		(effects
+			(font
+				(size 1.48 1.48)
+			)
+			(justify left top)
+		)
+		(uuid "f918350c-f8a3-4e0e-bc97-5ff423304185")
+	)
+	(text "R42"
+		(exclude_from_sim no)
+		(at 183.382 138.684 0)
+		(effects
+			(font
+				(size 1.48 1.48)
+			)
+			(justify left bottom)
+		)
+		(uuid "fb6d3f16-b7bb-4c84-8582-51a1a8bf4035")
+	)
+	(global_label "IN_2"
+		(shape bidirectional)
+		(at 111.76 101.6 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right)
+		)
+		(uuid "0e9a27e0-dc35-4e61-b62f-e62fe2c80dd0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 105.1932 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "NORMALIZATION_PROBE"
+		(shape bidirectional)
+		(at 58.42 132.08 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right)
+		)
+		(uuid "48243b1d-00b9-4ce1-8646-5fbcd612f929")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 37.6291 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CV_NORMALIZATION"
+		(shape bidirectional)
+		(at 71.12 142.24 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right)
+		)
+		(uuid "87b91045-f9df-413f-b041-c28c35835df6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 53.4738 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "STRUM"
+		(shape bidirectional)
+		(at 91.44 63.5 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left)
+		)
+		(uuid "9a84f5e7-bc83-43c9-8ae0-c3af462ffda7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 99.7001 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+3V3"
+		(shape bidirectional)
+		(at 48.26 127 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left)
+		)
+		(uuid "c3cc45df-2f09-4e38-a816-2403980afb1d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 55.6009 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "IN_1"
+		(shape bidirectional)
+		(at 111.76 142.24 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left)
+		)
+		(uuid "d7c01a5a-3f19-4c76-8ba5-81f4644e3da3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 118.3268 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "AUX_OUT"
+		(shape bidirectional)
+		(at 152.4 147.32 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left)
+		)
+		(uuid "e66a6847-7fdf-4388-b51a-42861b3bfa42")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 162.2568 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MAIN_OUT"
+		(shape bidirectional)
+		(at 152.4 101.6 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left)
+		)
+		(uuid "ee1ed3a5-0d69-4884-bfb6-9aec2add9586")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 162.9341 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "NORMALIZATION_PROBE"
+		(shape bidirectional)
+		(at 38.1 132.08 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right)
+		)
+		(uuid "fc12bec2-7e40-4d5d-aef5-7ffc1a843017")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 17.3091 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "nrings-eagle-import:R-US_R0603_34")
+		(at 91.44 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "033b3d55-76c5-4200-8f93-3ae2711c203b")
+		(property "Reference" "R8"
+			(at 91.44 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "10k"
+			(at 91.44 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "nrings:RES_0603"
+			(at 91.44 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 91.44 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 91.44 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ca10693a-9c72-4977-97ab-2338783444d5")
+		)
+		(pin "1"
+			(uuid "466a6850-ed19-47e9-b62d-d73dd6b7b7f4")
+		)
+		(instances
+			(project ""
+				(path "/4187642d-bdfc-4b1b-8023-ada5be9630d8/3f482a65-3368-4b06-8d6d-a87091a30adc"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "nrings-eagle-import:+3V3")
+		(at 91.44 44.133 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "048728d3-1e2b-44d6-8cc5-e547af0d2136")
+		(property "Reference" "#+3V7"
+			(at 91.44 44.133 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 91.44 44.133 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 91.44 44.133 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 91.44 44.133 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 91.44 44.133 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "332898d5-5064-489a-8d18-2b7361f65526")
+		)
+		(instances
+			(project ""
+				(path "/4187642d-bdfc-4b1b-8023-ada5be9630d8/3f482a65-3368-4b06-8d6d-a87091a30adc"
+					(reference "#+3V7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "nrings-eagle-import:TL072D")
+		(at 259.08 116.84 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0f4bbb62-4e29-4d3a-95cd-96ecd8bf72cc")
+		(property "Reference" "IC8"
+			(at 259.08 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "TL072"
+			(at 259.08 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "nrings:SO08"
+			(at 259.08 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 259.08 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 259.08 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a1265eb2-c08c-475d-8c66-055000fe4e85")
+		)
+		(pin "6"
+			(uuid "f0ce230d-f5ef-434e-b658-454d06daa3ab")
+		)
+		(pin "5"
+			(uuid "bb44b76b-bc73-406f-8d03-5a5520f82bfd")
+		)
+		(pin "1"
+			(uuid "b05e7073-350e-4547-8c04-732693ba8148")
+		)
+		(pin "4"
+			(uuid "28b2e2da-9304-4ece-a85c-2f131b2febe9")
+		)
+		(pin "8"
+			(uuid "ba226799-83b6-4d15-ae0d-3b51a40ec0ef")
+		)
+		(pin "3"
+			(uuid "6e84067b-638b-4ce7-8e1f-38b6839d4631")
+		)
+		(pin "7"
+			(uuid "67aaf368-3912-4ae1-b0c1-a437ed3ed20e")
+		)
+		(instances
+			(project ""
+				(path "/4187642d-bdfc-4b1b-8023-ada5be9630d8/3f482a65-3368-4b06-8d6d-a87091a30adc"
+					(reference "IC8")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "nrings-eagle-import:SOLDERJUMPERNC2")
+		(at 210.82 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "11408836-f5dc-46d3-be7a-5ff28474929e")
+		(property "Reference" "SJ1"
+			(at 210.82 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "SOLDERJUMPERNC2"
+			(at 210.82 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "nrings:SJ_2S-NOTRACE"
+			(at 210.82 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 210.82 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 210.82 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1028106b-d341-478b-88f7-187b1d3af002")
+		)
+		(pin "2"
+			(uuid "f8e30d35-07ab-42ca-a02a-b5353cad8999")
+		)
+		(instances
+			(project ""
+				(path "/4187642d-bdfc-4b1b-8023-ada5be9630d8/3f482a65-3368-4b06-8d6d-a87091a30adc"
+					(reference "SJ1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "nrings-eagle-import:TL072D")
+		(at 187.96 149.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "12b84f5f-759c-42ea-bbfb-31c84e455d77")
+		(property "Reference" "IC8"
+			(at 187.96 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "TL072"
+			(at 187.96 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "nrings:SO08"
+			(at 187.96 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 187.96 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 187.96 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "05ef8a76-003c-4247-b704-4f760dd994fb")
+		)
+		(pin "4"
+			(uuid "8a2728d2-bd44-470c-9e03-793e1c3fb795")
+		)
+		(pin "6"
+			(uuid "11e8faba-f40d-4694-bbea-5d276cd13d6f")
+		)
+		(pin "2"
+			(uuid "0cf3f605-05f5-42d1-b63b-b4d4855ad770")
+		)
+		(pin "8"
+			(uuid "41bc48a0-9b75-4a64-8102-6f2825eb43a6")
+		)
+		(pin "7"
+			(uuid "7769ba32-1301-4da6-a2a2-703b62791103")
+		)
+		(pin "3"
+			(uuid "41ae16d9-2cc3-490c-bfa1-928918fd16f4")
+		)
+		(pin "1"
+			(uuid "b0afaa35-0725-41d8-a018-1dddbc67dce5")
+		)
+		(instances
+			(project ""
+				(path "/4187642d-bdfc-4b1b-8023-ada5be9630d8/3f482a65-3368-4b06-8d6d-a87091a30adc"
+					(reference "IC8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "nrings-eagle-import:GND")
+		(at 91.44 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1a591601-b973-47ea-8965-52841797c695")
+		(property "Reference" "#GND29"
+			(at 91.44 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 91.44 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 91.44 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 91.44 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 91.44 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b66621b7-198f-4b0f-8bfd-46d161ab6973")
+		)
+		(instances
+			(project ""
+				(path "/4187642d-bdfc-4b1b-8023-ada5be9630d8/3f482a65-3368-4b06-8d6d-a87091a30adc"
+					(reference "#GND29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "nrings-eagle-import:R-US_R0603")
+		(at 66.04 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "279f6718-7da5-4830-b978-5015cfa2078b")
+		(property "Reference" "R57"
+			(at 66.04 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "470k"
+			(at 66.04 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "nrings:RES_0603"
+			(at 66.04 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 66.04 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c421a0c1-99b1-4dea-90b3-cede30a5d2fa")
+		)
+		(pin "1"
+			(uuid "5b9cbf0a-2993-4fc1-a766-a6d4a7a83787")
+		)
+		(instances
+			(project ""
+				(path "/4187642d-bdfc-4b1b-8023-ada5be9630d8/3f482a65-3368-4b06-8d6d-a87091a30adc"
+					(reference "R57")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "nrings-eagle-import:C-USC0603_4")
+		(at 99.06 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2a14a14c-91ca-4032-b4e1-42cac17cf1ba")
+		(property "Reference" "C49"
+			(at 99.06 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "220p"
+			(at 99.06 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "nrings:CAP_0603"
+			(at 99.06 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 99.06 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2adf777a-d82f-4e42-8f54-23b99624a6ee")
+		)
+		(pin "1"
+			(uuid "a7bd3eae-a9c6-4526-941e-5c37c0f81513")
+		)
+		(instances
+			(project ""
+				(path "/4187642d-bdfc-4b1b-8023-ada5be9630d8/3f482a65-3368-4b06-8d6d-a87091a30adc"
+					(reference "C49")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "nrings-eagle-import:GND")
+		(at 73.66 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2c8dce9c-94cd-4441-b535-277a44563ca8")
+		(property "Reference" "#GND51"
+			(at 73.66 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 73.66 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 73.66 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 73.66 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cbac845f-35bd-4dbd-a180-74da80bad4c5")
+		)
+		(instances
+			(project ""
+				(path "/4187642d-bdfc-4b1b-8023-ada5be9630d8/3f482a65-3368-4b06-8d6d-a87091a30adc"
+					(reference "#GND51")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "nrings-eagle-import:R-US_R0603_37")
+		(at 170.18 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "31c970a6-5956-4b6e-9bd5-f3271b8212e1")
+		(property "Reference" "R44"
+			(at 170.18 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "47k"
+			(at 170.18 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "nrings:RES_0603"
+			(at 170.18 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.18 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 170.18 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "54676a80-7bc5-4354-87a1-6474b895087e")
+		)
+		(pin "2"
+			(uuid "45dde67a-7705-46b3-bf7e-3b51db39404b")
+		)
+		(instances
+			(project ""
+				(path "/4187642d-bdfc-4b1b-8023-ada5be9630d8/3f482a65-3368-4b06-8d6d-a87091a30adc"
+					(reference "R44")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "nrings-eagle-import:VCC")
+		(at 259.08 99.695 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3395537c-88ab-4a3e-bf3b-da2631a74045")
+		(property "Reference" "#P+1"
+			(at 259.08 99.695 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 259.08 99.695 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 259.08 99.695 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 259.08 99.695 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 259.08 99.695 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "97125bbf-98ac-4c8b-a655-201019cfbc61")
+		)
+		(instances
+			(project ""
+				(path "/4187642d-bdfc-4b1b-8023-ada5be9630d8/3f482a65-3368-4b06-8d6d-a87091a30adc"
+					(reference "#P+1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "nrings-eagle-import:GND")
+		(at 276.86 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "35adce07-0a8c-44af-9b4c-26ec88f591b1")
+		(property "Reference" "#GND41"
+			(at 276.86 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 276.86 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 276.86 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 276.86 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 276.86 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "524bd311-684c-487a-a769-bc49d2926642")
+		)
+		(instances
+			(project ""
+				(path "/4187642d-bdfc-4b1b-8023-ada5be9630d8/3f482a65-3368-4b06-8d6d-a87091a30adc"
+					(reference "#GND41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "nrings-eagle-import:GND")
+		(at 215.9 160.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "38776a1e-6c83-4019-9168-f111f00e24b2")
+		(property "Reference" "#GND33"
+			(at 215.9 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 215.9 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 215.9 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 215.9 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 215.9 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "89993b29-f66c-4be3-8b11-7397e4bfade2")
+		)
+		(instances
+			(project ""
+				(path "/4187642d-bdfc-4b1b-8023-ada5be9630d8/3f482a65-3368-4b06-8d6d-a87091a30adc"
+					(reference "#GND33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "nrings-eagle-import:CPOL-USA_29")
+		(at 155.622 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3c7cf14c-9f11-48e6-b9e9-105fdf000dca")
+		(property "Reference" "C32"
+			(at 155.622 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "10u"
+			(at 155.622 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "nrings:PANASONIC_A"
+			(at 155.622 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 155.622 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 155.622 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "+"
+			(uuid "5cf392fb-4744-487d-974d-564f1f7adb62")
+		)
+		(pin "-"
+			(uuid "782c082e-0d83-4747-8556-dbfc6df9f54b")
+		)
+		(instances
+			(project ""
+				(path "/4187642d-bdfc-4b1b-8023-ada5be9630d8/3f482a65-3368-4b06-8d6d-a87091a30adc"
+					(reference "C32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "nrings-eagle-import:R-US_R0603_37")
+		(at 83.82 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "40ca5109-48a3-4586-b939-709d7cbc5145")
+		(property "Reference" "R54"
+			(at 83.82 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "36k"
+			(at 83.82 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "nrings:RES_0603"
+			(at 83.82 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 83.82 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 83.82 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b5f8a8a6-aa46-4be4-868f-43990e91f192")
+		)
+		(pin "1"
+			(uuid "bcaa1c98-3e2c-4023-ab63-722043443773")
+		)
+		(instances
+			(project ""
+				(path "/4187642d-bdfc-4b1b-8023-ada5be9630d8/3f482a65-3368-4b06-8d6d-a87091a30adc"
+					(reference "R54")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "nrings-eagle-import:R-US_R0603_37")
+		(at 205.74 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "497da62b-6b65-4062-bafa-e681ac636015")
+		(property "Reference" "R55"
+			(at 205.74 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "1.0k"
+			(at 205.74 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "nrings:RES_0603"
+			(at 205.74 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 205.74 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 205.74 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "03664d24-2d8c-47b3-a1aa-0eb9dddc0979")
+		)
+		(pin "2"
+			(uuid "d7eaa2e4-eeae-4763-8ffa-920dd11f945a")
+		)
+		(instances
+			(project ""
+				(path "/4187642d-bdfc-4b1b-8023-ada5be9630d8/3f482a65-3368-4b06-8d6d-a87091a30adc"
+					(reference "R55")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "nrings-eagle-import:GND")
+		(at 91.44 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "49991751-db71-42f7-83ec-2ad94b45c157")
+		(property "Reference" "#GND42"
+			(at 91.44 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 91.44 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 91.44 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 91.44 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 91.44 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1ad047ed-0a78-46aa-b4c5-d9f532cb85ce")
+		)
+		(instances
+			(project ""
+				(path "/4187642d-bdfc-4b1b-8023-ada5be9630d8/3f482a65-3368-4b06-8d6d-a87091a30adc"
+					(reference "#GND42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "nrings-eagle-import:TL072D")
+		(at 187.96 104.14 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4f0dd569-c289-40f8-9d84-e3079dd7070e")
+		(property "Reference" "IC8"
+			(at 187.96 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "TL072"
+			(at 187.96 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "nrings:SO08"
+			(at 187.96 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 187.96 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 187.96 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "b02b407a-b2a3-4a34-9fc7-0c66fb42fa32")
+		)
+		(pin "5"
+			(uuid "0bdb9b33-8d40-4574-92a8-57b17043b5cc")
+		)
+		(pin "6"
+			(uuid "73b6c9b3-7f79-42a3-ad77-89e00623b33b")
+		)
+		(pin "7"
+			(uuid "c474d11e-f48f-4950-9f29-3a0ed3950f12")
+		)
+		(pin "4"
+			(uuid "2e81d6dc-6dc6-4afa-8257-eda633eac5b6")
+		)
+		(pin "8"
+			(uuid "cf5631b0-f564-4e79-8288-ce0792837fa4")
+		)
+		(pin "1"
+			(uuid "20db7b0e-533e-44ec-9eaa-faba4f67e0b3")
+		)
+		(pin "2"
+			(uuid "fe50d4bc-7b17-4efe-a6ad-a7a72195438a")
+		)
+		(instances
+			(project ""
+				(path "/4187642d-bdfc-4b1b-8023-ada5be9630d8/3f482a65-3368-4b06-8d6d-a87091a30adc"
+					(reference "IC8")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "nrings-eagle-import:R-US_R0603")
+		(at 66.04 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5463e8ba-db4f-4e43-a537-1d45a75d7b91")
+		(property "Reference" "R52"
+			(at 66.04 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "100k"
+			(at 66.04 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "nrings:RES_0603"
+			(at 66.04 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 66.04 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bd7fa6db-fee5-43d1-ab4c-cbc714fb7222")
+		)
+		(pin "2"
+			(uuid "1add6104-0034-4d49-b1e5-e5df60d507b9")
+		)
+		(instances
+			(project ""
+				(path "/4187642d-bdfc-4b1b-8023-ada5be9630d8/3f482a65-3368-4b06-8d6d-a87091a30adc"
+					(reference "R52")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "nrings-eagle-import:R-US_R0603_37")
+		(at 185.42 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "55cdb984-0c5a-426d-937b-d7112a6b3d09")
+		(property "Reference" "R41"
+			(at 185.42 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "47k"
+			(at 185.42 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "nrings:RES_0603"
+			(at 185.42 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 185.42 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 185.42 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "27c67fdc-353c-40d3-9ecc-6cc85f16f399")
+		)
+		(pin "2"
+			(uuid "067c4599-4bbd-4915-a471-a63f23ba1c6e")
+		)
+		(instances
+			(project ""
+				(path "/4187642d-bdfc-4b1b-8023-ada5be9630d8/3f482a65-3368-4b06-8d6d-a87091a30adc"
+					(reference "R41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "nrings-eagle-import:ODD")
+		(at 225.045 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "55fc3355-4a3a-4932-8fae-9126e95d30c2")
+		(property "Reference" "J9"
+			(at 225.045 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PJ301_THONKICONN6"
+			(at 225.045 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "nrings:THONKICONN"
+			(at 225.045 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 225.045 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 225.045 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "102477bf-892a-4429-9469-65a25e6e79ed")
+		)
+		(pin "2"
+			(uuid "c9ab2a08-f933-4583-a4b9-58ac9b16d64f")
+		)
+		(pin "1"
+			(uuid "446237c6-db6b-45c5-b149-79cb6cefa19e")
+		)
+		(instances
+			(project ""
+				(path "/4187642d-bdfc-4b1b-8023-ada5be9630d8/3f482a65-3368-4b06-8d6d-a87091a30adc"
+					(reference "J9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "nrings-eagle-import:DIODE_2CACA-SOT23")
+		(at 48.26 132.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "59a58f3e-f3ea-46a2-9199-5dbe2e217d45")
+		(property "Reference" "D3"
+			(at 48.26 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "BAT54S"
+			(at 48.26 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "nrings:SOT23"
+			(at 48.26 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 48.26 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 48.26 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "845cd4f5-b158-4d62-9fef-10895c0e7602")
+		)
+		(pin "3"
+			(uuid "3290f6c8-5587-494e-9dcc-e5d7ba780817")
+		)
+		(pin "2"
+			(uuid "a0fbf45a-2b76-4d86-bc00-3c087c8f1278")
+		)
+		(instances
+			(project ""
+				(path "/4187642d-bdfc-4b1b-8023-ada5be9630d8/3f482a65-3368-4b06-8d6d-a87091a30adc"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "nrings-eagle-import:CPOL-USA_29")
+		(at 155.622 147.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5a4ad20e-5b20-40ed-8b97-d1adeec036d9")
+		(property "Reference" "C33"
+			(at 155.622 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "10u"
+			(at 155.622 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "nrings:PANASONIC_A"
+			(at 155.622 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 155.622 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 155.622 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "+"
+			(uuid "e1de2109-0e9e-45c0-b14b-fbca06570bdf")
+		)
+		(pin "-"
+			(uuid "9ef3dd9c-c5aa-45b3-a1eb-6aa1f5eede75")
+		)
+		(instances
+			(project ""
+				(path "/4187642d-bdfc-4b1b-8023-ada5be9630d8/3f482a65-3368-4b06-8d6d-a87091a30adc"
+					(reference "C33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "nrings-eagle-import:R-US_R0603_37")
+		(at 185.42 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "620e2d2c-cca0-40e6-b2dd-a60ac0395309")
+		(property "Reference" "R42"
+			(at 185.42 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "47k"
+			(at 185.42 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "nrings:RES_0603"
+			(at 185.42 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 185.42 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 185.42 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d2281298-5317-4c51-a2c1-ba3e5265f848")
+		)
+		(pin "1"
+			(uuid "f1f68cac-5c27-4a4f-971b-bfb4785948db")
+		)
+		(instances
+			(project ""
+				(path "/4187642d-bdfc-4b1b-8023-ada5be9630d8/3f482a65-3368-4b06-8d6d-a87091a30adc"
+					(reference "R42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "nrings-eagle-import:GND")
+		(at 162.56 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "651df010-1460-485f-8920-1b16fb8a5fe3")
+		(property "Reference" "#GND37"
+			(at 162.56 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 162.56 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 162.56 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.56 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 162.56 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9531fd8a-9a03-4f2d-9ab4-fb5f937c7952")
+		)
+		(instances
+			(project ""
+				(path "/4187642d-bdfc-4b1b-8023-ada5be9630d8/3f482a65-3368-4b06-8d6d-a87091a30adc"
+					(reference "#GND37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "nrings-eagle-import:GND")
+		(at 76.2 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6bae8ac1-2a61-4b2d-93b6-c1a65d101c82")
+		(property "Reference" "#GND27"
+			(at 76.2 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 76.2 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 76.2 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 76.2 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "be99e203-65f7-4bff-9bf7-ac92359245f3")
+		)
+		(instances
+			(project ""
+				(path "/4187642d-bdfc-4b1b-8023-ada5be9630d8/3f482a65-3368-4b06-8d6d-a87091a30adc"
+					(reference "#GND27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "nrings-eagle-import:GND")
+		(at 111.76 157.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "759b325d-8cd6-4adc-a250-7051e9d48c8e")
+		(property "Reference" "#GND22"
+			(at 111.76 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 111.76 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 111.76 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 111.76 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "43a47833-e6f3-44b4-9b9f-364eab807c9d")
+		)
+		(instances
+			(project ""
+				(path "/4187642d-bdfc-4b1b-8023-ada5be9630d8/3f482a65-3368-4b06-8d6d-a87091a30adc"
+					(reference "#GND22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "nrings-eagle-import:CPOL-USA_30")
+		(at 108.538 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "764fba01-f301-436a-a727-1366e59708be")
+		(property "Reference" "C40"
+			(at 108.538 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "10u"
+			(at 108.538 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "nrings:PANASONIC_A"
+			(at 108.538 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 108.538 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 108.538 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "+"
+			(uuid "832dac8b-2bba-418b-aa20-9476b74e6b11")
+		)
+		(pin "-"
+			(uuid "c28354dd-1ec8-4725-ae43-e2b2541eaeee")
+		)
+		(instances
+			(project ""
+				(path "/4187642d-bdfc-4b1b-8023-ada5be9630d8/3f482a65-3368-4b06-8d6d-a87091a30adc"
+					(reference "C40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "nrings-eagle-import:C-USC0603_4")
+		(at 264.16 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "79a677ba-128a-4a16-b115-ba6ab891cef7")
+		(property "Reference" "C39"
+			(at 264.16 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "100n"
+			(at 264.16 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "nrings:CAP_0603"
+			(at 264.16 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 264.16 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 264.16 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b67da4f9-be96-4ec1-aa7c-fd69b873d030")
+		)
+		(pin "1"
+			(uuid "1b4c6507-b2bf-45b3-953a-2b8404ac143a")
+		)
+		(instances
+			(project ""
+				(path "/4187642d-bdfc-4b1b-8023-ada5be9630d8/3f482a65-3368-4b06-8d6d-a87091a30adc"
+					(reference "C39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "nrings-eagle-import:C-USC0603_5")
+		(at 189.23 132.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8466c6e5-346d-41ef-9846-53ed2ca47d7e")
+		(property "Reference" "C43"
+			(at 189.23 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "18p"
+			(at 189.23 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "nrings:CAP_0603"
+			(at 189.23 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 189.23 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 189.23 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a5d70688-4694-43b9-bbb8-a000ffcb851d")
+		)
+		(pin "2"
+			(uuid "5d08e5b7-01b9-457a-b3f5-9e7c0248a91c")
+		)
+		(instances
+			(project ""
+				(path "/4187642d-bdfc-4b1b-8023-ada5be9630d8/3f482a65-3368-4b06-8d6d-a87091a30adc"
+					(reference "C43")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "nrings-eagle-import:R-US_R0603_34")
+		(at 162.56 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "869f74a6-c66f-4e4b-af7a-a1a08c6b2fbe")
+		(property "Reference" "R33"
+			(at 162.56 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "47k"
+			(at 162.56 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "nrings:RES_0603"
+			(at 162.56 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.56 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 162.56 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2dd4fd9b-c6d0-460f-97ca-9078d6bd870c")
+		)
+		(pin "2"
+			(uuid "16362d26-bed7-4b0d-8ffb-eb06b93ad322")
+		)
+		(instances
+			(project ""
+				(path "/4187642d-bdfc-4b1b-8023-ada5be9630d8/3f482a65-3368-4b06-8d6d-a87091a30adc"
+					(reference "R33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "nrings-eagle-import:R-US_R0603")
+		(at 78.74 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "89519012-cd52-4ce9-8eac-6dbdd0581d4b")
+		(property "Reference" "R11"
+			(at 78.74 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "100k"
+			(at 78.74 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "nrings:RES_0603"
+			(at 78.74 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.74 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 78.74 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7f11af8d-f518-4306-92f2-c1003e8e78dd")
+		)
+		(pin "1"
+			(uuid "05151811-93fa-4e5c-a3fa-2360f321d003")
+		)
+		(instances
+			(project ""
+				(path "/4187642d-bdfc-4b1b-8023-ada5be9630d8/3f482a65-3368-4b06-8d6d-a87091a30adc"
+					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "nrings-eagle-import:GND")
+		(at 215.9 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "98a4f98b-75a2-4dac-ae2d-3f5722a248ca")
+		(property "Reference" "#GND39"
+			(at 215.9 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 215.9 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 215.9 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 215.9 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 215.9 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8acb4065-0bbd-42c2-bb06-23815f1bf8d7")
+		)
+		(instances
+			(project ""
+				(path "/4187642d-bdfc-4b1b-8023-ada5be9630d8/3f482a65-3368-4b06-8d6d-a87091a30adc"
+					(reference "#GND39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "nrings-eagle-import:R-US_R0603")
+		(at 66.04 132.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9b334e91-62f7-4140-b20a-15afb1ad481a")
+		(property "Reference" "R53"
+			(at 66.04 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "1M"
+			(at 66.04 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "nrings:RES_0603"
+			(at 66.04 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 66.04 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "adc179da-078c-4256-b408-f343ce794e9e")
+		)
+		(pin "2"
+			(uuid "31c6b543-18a7-4183-acc7-cc2e958de42c")
+		)
+		(instances
+			(project ""
+				(path "/4187642d-bdfc-4b1b-8023-ada5be9630d8/3f482a65-3368-4b06-8d6d-a87091a30adc"
+					(reference "R53")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "nrings-eagle-import:IN")
+		(at 67.057 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b7414242-cc32-4705-9da4-fa8d78353aea")
+		(property "Reference" "J8"
+			(at 67.057 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PJ301_THONKICONN6"
+			(at 67.057 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "nrings:THONKICONN"
+			(at 67.057 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 67.057 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 67.057 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "2b76b158-fe2f-4439-9965-f0a417d6b54e")
+		)
+		(pin "1"
+			(uuid "862a9f54-74bb-4bd5-8b88-9ef6718db1e8")
+		)
+		(pin "2"
+			(uuid "67e176fd-0055-4baf-861c-5f13d1261331")
+		)
+		(instances
+			(project ""
+				(path "/4187642d-bdfc-4b1b-8023-ada5be9630d8/3f482a65-3368-4b06-8d6d-a87091a30adc"
+					(reference "J8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "nrings-eagle-import:GND")
+		(at 177.8 157.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bdc3bcf6-8a40-4bad-ae6a-d70360966bdd")
+		(property "Reference" "#GND32"
+			(at 177.8 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 177.8 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 177.8 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 177.8 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 177.8 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "29b960db-d7ae-4769-9e63-5cf7b1c31e4f")
+		)
+		(instances
+			(project ""
+				(path "/4187642d-bdfc-4b1b-8023-ada5be9630d8/3f482a65-3368-4b06-8d6d-a87091a30adc"
+					(reference "#GND32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "nrings-eagle-import:C-USC0603_4")
+		(at 264.16 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "be94a8ce-7e56-4460-be99-6d3adea950f5")
+		(property "Reference" "C45"
+			(at 264.16 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "100n"
+			(at 264.16 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "nrings:CAP_0603"
+			(at 264.16 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 264.16 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 264.16 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e7608cf0-1d0e-4cfb-bd38-36a40d269eab")
+		)
+		(pin "2"
+			(uuid "d804dbb0-1a0f-4ec9-89a2-df6b6193f5f9")
+		)
+		(instances
+			(project ""
+				(path "/4187642d-bdfc-4b1b-8023-ada5be9630d8/3f482a65-3368-4b06-8d6d-a87091a30adc"
+					(reference "C45")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "nrings-eagle-import:C-USC0603_5")
+		(at 189.23 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c41c1588-dc01-4768-8e9a-da1948642523")
+		(property "Reference" "C42"
+			(at 189.23 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "18p"
+			(at 189.23 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "nrings:CAP_0603"
+			(at 189.23 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 189.23 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 189.23 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a39aa81d-acb1-40b3-91c7-19dd322f98e7")
+		)
+		(pin "2"
+			(uuid "d43f2d4f-8c3f-48bd-a018-6dc33800869c")
+		)
+		(instances
+			(project ""
+				(path "/4187642d-bdfc-4b1b-8023-ada5be9630d8/3f482a65-3368-4b06-8d6d-a87091a30adc"
+					(reference "C42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "nrings-eagle-import:VEE_42")
+		(at 259.08 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c885616e-463d-4f43-99ed-58b612c48ed9")
+		(property "Reference" "#SUPPLY4"
+			(at 259.08 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VEE"
+			(at 259.08 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 259.08 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 259.08 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 259.08 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2b8d4cef-a074-47dc-92ef-3e6c1f9007cc")
+		)
+		(instances
+			(project ""
+				(path "/4187642d-bdfc-4b1b-8023-ada5be9630d8/3f482a65-3368-4b06-8d6d-a87091a30adc"
+					(reference "#SUPPLY4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "nrings-eagle-import:GND")
+		(at 99.06 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cd993680-1597-425a-898c-0a115ebfa2a1")
+		(property "Reference" "#GND30"
+			(at 99.06 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 99.06 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 99.06 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 99.06 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8d50892a-2fd8-4e09-bc39-df2aea5d0e2b")
+		)
+		(instances
+			(project ""
+				(path "/4187642d-bdfc-4b1b-8023-ada5be9630d8/3f482a65-3368-4b06-8d6d-a87091a30adc"
+					(reference "#GND30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "nrings-eagle-import:R-US_R0603_37")
+		(at 205.74 149.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d727edd8-1f1b-4327-bf7c-73b3e5cf1b55")
+		(property "Reference" "R56"
+			(at 205.74 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "1.0k"
+			(at 205.74 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "nrings:RES_0603"
+			(at 205.74 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 205.74 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 205.74 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "49aaa8a2-0eee-4239-b2d7-0adb518eae01")
+		)
+		(pin "1"
+			(uuid "6841d3ce-6b57-4032-b620-f642ea2105aa")
+		)
+		(instances
+			(project ""
+				(path "/4187642d-bdfc-4b1b-8023-ada5be9630d8/3f482a65-3368-4b06-8d6d-a87091a30adc"
+					(reference "R56")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "nrings-eagle-import:MMBT3904LT1-NPN-SOT23-BEC")
+		(at 90.045 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d989a719-3de3-4627-a12e-e2d1a80720b8")
+		(property "Reference" "Q2"
+			(at 90.045 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "MMBT3904"
+			(at 90.045 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "nrings:SOT23-BEC"
+			(at 90.045 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 90.045 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 90.045 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "E"
+			(uuid "7273375f-32d8-42e1-bb2c-585ebbc6bc3d")
+		)
+		(pin "B"
+			(uuid "8d0edb5d-84c7-466a-bfaf-4d8996dd00b4")
+		)
+		(pin "C"
+			(uuid "53aa861b-85a4-4f0f-87ba-e5d2c1858533")
+		)
+		(instances
+			(project ""
+				(path "/4187642d-bdfc-4b1b-8023-ada5be9630d8/3f482a65-3368-4b06-8d6d-a87091a30adc"
+					(reference "Q2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "nrings-eagle-import:R-US_R0603_37")
+		(at 170.18 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "de39c4d7-7428-49ff-9a29-7c3950e02e08")
+		(property "Reference" "R40"
+			(at 170.18 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "6.8k"
+			(at 170.18 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "nrings:RES_0603"
+			(at 170.18 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.18 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 170.18 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5ed30adb-ecbe-485b-b8ec-59f7c5c2d78a")
+		)
+		(pin "2"
+			(uuid "1eb4af72-67e6-41f9-9feb-8437a731769a")
+		)
+		(instances
+			(project ""
+				(path "/4187642d-bdfc-4b1b-8023-ada5be9630d8/3f482a65-3368-4b06-8d6d-a87091a30adc"
+					(reference "R40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "nrings-eagle-import:R-US_R0603_37")
+		(at 170.18 147.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "df1c535c-7285-454b-aa17-fb3e6c93d248")
+		(property "Reference" "R43"
+			(at 170.18 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "6.8k"
+			(at 170.18 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "nrings:RES_0603"
+			(at 170.18 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.18 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 170.18 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "84739229-a9ea-4f5e-a74f-a710e1f94403")
+		)
+		(pin "2"
+			(uuid "9d0b18b7-9c05-43ee-9bb0-82b550491384")
+		)
+		(instances
+			(project ""
+				(path "/4187642d-bdfc-4b1b-8023-ada5be9630d8/3f482a65-3368-4b06-8d6d-a87091a30adc"
+					(reference "R43")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "nrings-eagle-import:STRUM")
+		(at 64.517 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e4df3af5-f52b-4478-9dbc-3f9016cb1dfc")
+		(property "Reference" "J6"
+			(at 64.517 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PJ301_THONKICONN6"
+			(at 64.517 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "nrings:THONKICONN"
+			(at 64.517 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 64.517 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 64.517 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "1acac84b-6b15-41d4-99fd-51ca10471d57")
+		)
+		(pin "2"
+			(uuid "1c30791a-9d4c-4b40-9003-76b2f8d29c84")
+		)
+		(pin "1"
+			(uuid "c2b88979-16d6-49bb-bec9-6f61f54a6585")
+		)
+		(instances
+			(project ""
+				(path "/4187642d-bdfc-4b1b-8023-ada5be9630d8/3f482a65-3368-4b06-8d6d-a87091a30adc"
+					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "nrings-eagle-import:R-US_R0603_34")
+		(at 91.44 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "eb5c8e3d-66a6-4edb-8359-540e985cc85d")
+		(property "Reference" "R51"
+			(at 91.44 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "6.8k"
+			(at 91.44 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "nrings:RES_0603"
+			(at 91.44 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 91.44 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 91.44 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d7797b2b-1fd4-4d3b-8e35-7b7cc85e7e0b")
+		)
+		(pin "1"
+			(uuid "4a7cad3a-b03e-4d06-9b3d-20d39d439d8a")
+		)
+		(instances
+			(project ""
+				(path "/4187642d-bdfc-4b1b-8023-ada5be9630d8/3f482a65-3368-4b06-8d6d-a87091a30adc"
+					(reference "R51")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "nrings-eagle-import:GND")
+		(at 48.26 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "eff7e73f-fa71-4aca-8146-1ebdabdaa7f1")
+		(property "Reference" "#GND52"
+			(at 48.26 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 48.26 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 48.26 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 48.26 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 48.26 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8cecf684-6817-4342-b2f6-f12dcc9681b9")
+		)
+		(instances
+			(project ""
+				(path "/4187642d-bdfc-4b1b-8023-ada5be9630d8/3f482a65-3368-4b06-8d6d-a87091a30adc"
+					(reference "#GND52")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "nrings-eagle-import:GND")
+		(at 177.8 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f0784498-40e0-4e36-b524-4ab4730df1ba")
+		(property "Reference" "#GND38"
+			(at 177.8 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 177.8 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 177.8 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 177.8 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 177.8 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1f7bcc5b-0f8e-4102-adf2-78fd3fe1d639")
+		)
+		(instances
+			(project ""
+				(path "/4187642d-bdfc-4b1b-8023-ada5be9630d8/3f482a65-3368-4b06-8d6d-a87091a30adc"
+					(reference "#GND38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "nrings-eagle-import:R-US_R0603_36")
+		(at 111.76 147.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f8cb33b0-8db7-4343-89c8-405cb43731dd")
+		(property "Reference" "R27"
+			(at 111.76 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "36k"
+			(at 111.76 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "nrings:RES_0603"
+			(at 111.76 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 111.76 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2c1b4f91-be0c-492f-a21f-6e979bfb2bd7")
+		)
+		(pin "2"
+			(uuid "7b31c817-6b45-48bb-a749-896ce87c352b")
+		)
+		(instances
+			(project ""
+				(path "/4187642d-bdfc-4b1b-8023-ada5be9630d8/3f482a65-3368-4b06-8d6d-a87091a30adc"
+					(reference "R27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "nrings-eagle-import:R-US_R0603_34")
+		(at 162.56 154.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f918d8f0-b993-4f17-b48d-df0c051c6798")
+		(property "Reference" "R38"
+			(at 162.56 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "47k"
+			(at 162.56 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "nrings:RES_0603"
+			(at 162.56 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.56 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 162.56 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "afe47183-b0ee-4c25-b1d9-59a8c451007c")
+		)
+		(pin "2"
+			(uuid "fe797d41-97f0-4cf7-9303-9207f2ddc3d7")
+		)
+		(instances
+			(project ""
+				(path "/4187642d-bdfc-4b1b-8023-ada5be9630d8/3f482a65-3368-4b06-8d6d-a87091a30adc"
+					(reference "R38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "nrings-eagle-import:EVEN")
+		(at 225.045 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f922350f-e00d-4021-bdba-be16ddffae67")
+		(property "Reference" "J10"
+			(at 225.045 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PJ301_THONKICONN6"
+			(at 225.045 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "nrings:THONKICONN"
+			(at 225.045 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 225.045 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 225.045 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "fb9ebb7e-06d4-4962-ad28-85956020e6ed")
+		)
+		(pin "2"
+			(uuid "6765f068-ad48-428b-a370-b39cff2e3783")
+		)
+		(pin "1"
+			(uuid "2f18f978-7c09-47fb-8109-378329c0cbea")
+		)
+		(instances
+			(project ""
+				(path "/4187642d-bdfc-4b1b-8023-ada5be9630d8/3f482a65-3368-4b06-8d6d-a87091a30adc"
+					(reference "J10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "nrings-eagle-import:R-US_R0603_37")
+		(at 170.18 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fcce64f7-da88-4c24-bcbf-08d313caec4b")
+		(property "Reference" "R39"
+			(at 170.18 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "47k"
+			(at 170.18 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "nrings:RES_0603"
+			(at 170.18 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.18 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 170.18 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "982ef7c7-9c3a-4958-b375-e145cc5885d6")
+		)
+		(pin "2"
+			(uuid "8e5acdb4-80b4-4e67-b9f7-3f341c16a8f0")
+		)
+		(instances
+			(project ""
+				(path "/4187642d-bdfc-4b1b-8023-ada5be9630d8/3f482a65-3368-4b06-8d6d-a87091a30adc"
+					(reference "R39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "nrings-eagle-import:GND")
+		(at 162.56 165.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fd171c9d-530a-4cce-ac16-1a5dcdfc98f4")
+		(property "Reference" "#GND31"
+			(at 162.56 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 162.56 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 162.56 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.56 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 162.56 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7b32c1c6-3a50-4b44-8c68-8a74003d5d9c")
+		)
+		(instances
+			(project ""
+				(path "/4187642d-bdfc-4b1b-8023-ada5be9630d8/3f482a65-3368-4b06-8d6d-a87091a30adc"
+					(reference "#GND31")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
